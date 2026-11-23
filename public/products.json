@@ -1,0 +1,354 @@
+[
+  {
+    "id": "pkm-1999-base-charizard",
+    "name": "1999 Base Set 1st Edition Booster (Charizard)",
+    "slug": "pokemon-1999-base-charizard",
+    "type": "booster-pack",
+    "series": "Classic Vintage",
+    "set": "Base Set (1st Edition)",
+    "releaseYear": 1999,
+    "price": 499,
+    "currency": "€",
+    "description": "100% autentický sken originálneho balíčka Base Set 1st Edition s Charizardom. Reálna fotka prednej aj zadnej strany balíčka zo skutočného fyzického produktu.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.22,
+      "metalness": 0.45,
+      "clearcoat": 0.9,
+      "clearcoatRoughness": 0.12
+    },
+    "textures": {
+      "front": "/textures/pokemon-1999-base-charizard/front.webp",
+      "back": "/textures/pokemon-1999-base-charizard/back.webp",
+      "side": "/textures/pokemon-1999-base-charizard/side.webp",
+      "top": "/textures/pokemon-1999-base-charizard/top.webp",
+      "thumbnail": "/textures/pokemon-1999-base-charizard/thumbnail.webp"
+    },
+    "featured": true
+  },
+  {
+    "id": "pkm-1999-base-blastoise",
+    "name": "1999 Base Set 1st Edition Booster (Blastoise)",
+    "slug": "pokemon-1999-base-blastoise",
+    "type": "booster-pack",
+    "series": "Classic Vintage",
+    "set": "Base Set (1st Edition)",
+    "releaseYear": 1999,
+    "price": 450,
+    "currency": "€",
+    "description": "100% autentický sken originálneho balíčka Base Set 1st Edition s Blastoise artworkom. Kompletný reálny sken oboch strán.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.22,
+      "metalness": 0.45,
+      "clearcoat": 0.9,
+      "clearcoatRoughness": 0.12
+    },
+    "textures": {
+      "front": "/textures/pokemon-1999-base-blastoise/front.webp",
+      "back": "/textures/pokemon-1999-base-blastoise/back.webp",
+      "side": "/textures/pokemon-1999-base-blastoise/side.webp",
+      "top": "/textures/pokemon-1999-base-blastoise/top.webp",
+      "thumbnail": "/textures/pokemon-1999-base-blastoise/thumbnail.webp"
+    },
+    "featured": true
+  },
+  {
+    "id": "pkm-1999-base-venusaur",
+    "name": "1999 Base Set 1st Edition Booster (Venusaur)",
+    "slug": "pokemon-1999-base-venusaur",
+    "type": "booster-pack",
+    "series": "Classic Vintage",
+    "set": "Base Set (1st Edition)",
+    "releaseYear": 1999,
+    "price": 420,
+    "currency": "€",
+    "description": "Originálny vintage booster pack Base Set s Venusaur artworkom. Skutočné fotografie prednej a zadnej fólie.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.22,
+      "metalness": 0.45,
+      "clearcoat": 0.9,
+      "clearcoatRoughness": 0.12
+    },
+    "textures": {
+      "front": "/textures/pokemon-1999-base-venusaur/front.webp",
+      "back": "/textures/pokemon-1999-base-venusaur/back.webp",
+      "side": "/textures/pokemon-1999-base-venusaur/side.webp",
+      "top": "/textures/pokemon-1999-base-venusaur/top.webp",
+      "thumbnail": "/textures/pokemon-1999-base-venusaur/thumbnail.webp"
+    },
+    "featured": true
+  },
+  {
+    "id": "pkm-2000-team-rocket-giovanni",
+    "name": "Team Rocket Booster Pack (Giovanni)",
+    "slug": "pokemon-team-rocket-giovanni",
+    "type": "booster-pack",
+    "series": "Classic Vintage",
+    "set": "Team Rocket",
+    "releaseYear": 2000,
+    "price": 290,
+    "currency": "€",
+    "description": "Originálny booster balíček Team Rocket s bossom Giovannim. Reálne skeny fyzického balíčka z oboch strán.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.25,
+      "metalness": 0.4,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.15
+    },
+    "textures": {
+      "front": "/textures/pokemon-team-rocket-giovanni/front.webp",
+      "back": "/textures/pokemon-team-rocket-giovanni/back.webp",
+      "side": "/textures/pokemon-team-rocket-giovanni/side.webp",
+      "top": "/textures/pokemon-team-rocket-giovanni/top.webp",
+      "thumbnail": "/textures/pokemon-team-rocket-giovanni/thumbnail.webp"
+    },
+    "featured": true
+  },
+  {
+    "id": "pkm-1999-fossil-pack",
+    "name": "Fossil Booster Pack (Aerodactyl)",
+    "slug": "pokemon-fossil-pack",
+    "type": "booster-pack",
+    "series": "Classic Vintage",
+    "set": "Fossil",
+    "releaseYear": 1999,
+    "price": 260,
+    "currency": "€",
+    "description": "Skutočný fyzický scan obalu Fossil s Aerodactylom. Predná aj zadná strana z originálneho fóliového balíčka.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.25,
+      "metalness": 0.4,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.15
+    },
+    "textures": {
+      "front": "/textures/pokemon-fossil-pack/front.webp",
+      "back": "/textures/pokemon-fossil-pack/back.webp",
+      "side": "/textures/pokemon-fossil-pack/side.webp",
+      "top": "/textures/pokemon-fossil-pack/top.webp",
+      "thumbnail": "/textures/pokemon-fossil-pack/thumbnail.webp"
+    },
+    "featured": true
+  },
+  {
+    "id": "pkm-1999-jungle-pack",
+    "name": "Jungle Booster Pack (Scyther)",
+    "slug": "pokemon-jungle-pack",
+    "type": "booster-pack",
+    "series": "Classic Vintage",
+    "set": "Jungle",
+    "releaseYear": 1999,
+    "price": 275,
+    "currency": "€",
+    "description": "Originálny fyzický scan balíčka Jungle s legendárnym Scytherom. Skutočné fotografie všetkých plôch.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.25,
+      "metalness": 0.4,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.15
+    },
+    "textures": {
+      "front": "/textures/pokemon-jungle-pack/front.webp",
+      "back": "/textures/pokemon-jungle-pack/back.webp",
+      "side": "/textures/pokemon-jungle-pack/side.webp",
+      "top": "/textures/pokemon-jungle-pack/top.webp",
+      "thumbnail": "/textures/pokemon-jungle-pack/thumbnail.webp"
+    },
+    "featured": true
+  },
+  {
+    "id": "pkm-2000-neo-genesis-lugia",
+    "name": "Neo Genesis Booster Pack (Lugia)",
+    "slug": "pokemon-neo-genesis-lugia",
+    "type": "booster-pack",
+    "series": "Neo Series",
+    "set": "Neo Genesis",
+    "releaseYear": 2000,
+    "price": 380,
+    "currency": "€",
+    "description": "Kompletný originálny scan balíčka Neo Genesis s Lugia artworkom. Reálna fotka prednej strany a zadnej strany s čiarovým kódom.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.2,
+      "metalness": 0.48,
+      "clearcoat": 0.9,
+      "clearcoatRoughness": 0.12
+    },
+    "textures": {
+      "front": "/textures/pokemon-neo-genesis-lugia/front.webp",
+      "back": "/textures/pokemon-neo-genesis-lugia/back.webp",
+      "side": "/textures/pokemon-neo-genesis-lugia/side.webp",
+      "top": "/textures/pokemon-neo-genesis-lugia/top.webp",
+      "thumbnail": "/textures/pokemon-neo-genesis-lugia/thumbnail.webp"
+    },
+    "featured": true
+  },
+  {
+    "id": "pkm-2001-neo-destiny-tyranitar",
+    "name": "Neo Destiny Booster Pack (Tyranitar)",
+    "slug": "pokemon-neo-destiny-tyranitar",
+    "type": "booster-pack",
+    "series": "Neo Series",
+    "set": "Neo Destiny",
+    "releaseYear": 2001,
+    "price": 450,
+    "currency": "€",
+    "description": "Vysokorozlíšený sken originálneho balíčka Neo Destiny s Dark Tyranitarom. Reálna predná i zadná strana.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.2,
+      "metalness": 0.48,
+      "clearcoat": 0.9,
+      "clearcoatRoughness": 0.12
+    },
+    "textures": {
+      "front": "/textures/pokemon-neo-destiny-tyranitar/front.webp",
+      "back": "/textures/pokemon-neo-destiny-tyranitar/back.webp",
+      "side": "/textures/pokemon-neo-destiny-tyranitar/side.webp",
+      "top": "/textures/pokemon-neo-destiny-tyranitar/top.webp",
+      "thumbnail": "/textures/pokemon-neo-destiny-tyranitar/thumbnail.webp"
+    },
+    "featured": true
+  },
+  {
+    "id": "pkm-modern-151-mew",
+    "name": "Pokémon 151 Booster Pack (Mew)",
+    "slug": "pokemon-modern-151-mew",
+    "type": "booster-pack",
+    "series": "Scarlet & Violet",
+    "set": "Pokémon 151",
+    "releaseYear": 2023,
+    "price": 6.99,
+    "currency": "€",
+    "description": "Oficiálny moderný booster pack Pokémon 151. Reálny scan prednej fólie v kombinácii s autentickým zadným scanom.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.18,
+      "metalness": 0.5,
+      "clearcoat": 1,
+      "clearcoatRoughness": 0.1
+    },
+    "textures": {
+      "front": "/textures/pokemon-modern-151-mew/front.webp",
+      "back": "/textures/pokemon-modern-151-mew/back.webp",
+      "side": "/textures/pokemon-modern-151-mew/side.webp",
+      "top": "/textures/pokemon-modern-151-mew/top.webp",
+      "thumbnail": "/textures/pokemon-modern-151-mew/thumbnail.webp"
+    },
+    "featured": true
+  },
+  {
+    "id": "pkm-modern-obsidian-charizard",
+    "name": "Obsidian Flames Booster (Tera Charizard ex)",
+    "slug": "pokemon-modern-obsidian-charizard",
+    "type": "booster-pack",
+    "series": "Scarlet & Violet",
+    "set": "Obsidian Flames",
+    "releaseYear": 2023,
+    "price": 5.49,
+    "currency": "€",
+    "description": "Oficiálny booster balíček Obsidian Flames s temným Tera Charizardom ex. Reálne fotografie produktu.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.18,
+      "metalness": 0.5,
+      "clearcoat": 1,
+      "clearcoatRoughness": 0.1
+    },
+    "textures": {
+      "front": "/textures/pokemon-modern-obsidian-charizard/front.webp",
+      "back": "/textures/pokemon-modern-obsidian-charizard/back.webp",
+      "side": "/textures/pokemon-modern-obsidian-charizard/side.webp",
+      "top": "/textures/pokemon-modern-obsidian-charizard/top.webp",
+      "thumbnail": "/textures/pokemon-modern-obsidian-charizard/thumbnail.webp"
+    },
+    "featured": true
+  },
+  {
+    "id": "pkm-modern-surging-sparks-pikachu",
+    "name": "Surging Sparks Booster (Stellar Pikachu)",
+    "slug": "pokemon-modern-surging-sparks-pikachu",
+    "type": "booster-pack",
+    "series": "Scarlet & Violet",
+    "set": "Surging Sparks",
+    "releaseYear": 2024,
+    "price": 5.99,
+    "currency": "€",
+    "description": "Najnovší expanzný booster pack Surging Sparks so Stellar Pikachu. Reálne fotografie produktu.",
+    "dimensions": {
+      "width": 2.1,
+      "height": 3.4,
+      "depth": 0.12,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.15,
+      "metalness": 0.52,
+      "clearcoat": 1,
+      "clearcoatRoughness": 0.08
+    },
+    "textures": {
+      "front": "/textures/pokemon-modern-surging-sparks-pikachu/front.webp",
+      "back": "/textures/pokemon-modern-surging-sparks-pikachu/back.webp",
+      "side": "/textures/pokemon-modern-surging-sparks-pikachu/side.webp",
+      "top": "/textures/pokemon-modern-surging-sparks-pikachu/top.webp",
+      "thumbnail": "/textures/pokemon-modern-surging-sparks-pikachu/thumbnail.webp"
+    },
+    "featured": true
+  }
+]
