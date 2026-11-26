@@ -1,139 +1,191 @@
-import React, { useState, useMemo } from 'react'
-import { Search, Filter, Layers, PlusCircle, Check, X } from 'lucide-react'
+import React, { useMemo, useState } from 'react'
+import { Database, Filter, Layers, PlusCircle, Search, X } from 'lucide-react'
+import { LANGUAGE_LABELS, PRODUCT_TYPE_PRESETS, TCG_GAMES } from '../config/product-types.ts'
+import type { ProductData, ProductType, TcgGame } from '../types/product.ts'
 import { ProductDisplay } from './ProductDisplay.tsx'
-import { ProductViewer } from './ProductViewer.tsx'
-import type { ProductData, ProductType } from '../types/product.ts'
-import { createProduct } from '../config/product-types.ts'
+import { ProductMediaView } from './ProductMediaView.tsx'
+import { WordPressSyncModal } from './WordPressSyncModal.tsx'
 
 interface ProductGalleryProps {
   products: ProductData[]
   onSelectProduct?: (product: ProductData) => void
+  onCatalogRefresh?: () => Promise<void> | void
 }
 
-const FILTER_OPTIONS: { label: string; value: ProductType | 'all' }[] = [
-  { label: 'Všetky produkty', value: 'all' },
-  { label: 'Booster balíčky', value: 'booster-pack' },
-  { label: 'Booster boxy (36)', value: 'booster-box' },
-  { label: 'Elite Trainer Boxy', value: 'elite-trainer-box' },
-  { label: 'Plechovky (Tins)', value: 'tin' },
-  { label: 'Blister balenia', value: 'blister-pack' },
+const GAME_FILTERS: { label: string; value: TcgGame | 'all' }[] = [
+  { label: 'Všetky hry', value: 'all' },
+  { label: 'Pokémon TCG', value: 'pokemon' },
+  { label: 'Magic (MTG)', value: 'magic' },
+  { label: 'One Piece', value: 'one-piece' },
+  { label: 'League of Legends', value: 'lol' },
 ]
 
-export const ProductGallery: React.FC<ProductGalleryProps> = ({ products: initialProducts }) => {
+const TYPE_FILTER_OPTIONS: { label: string; value: ProductType | 'all' }[] = [
+  { label: 'Všetky typy', value: 'all' },
+  { label: 'Booster balíčky', value: 'booster-pack' },
+  { label: 'Booster boxy', value: 'booster-box' },
+  { label: 'Booster Bundle', value: 'booster-bundle' },
+  { label: 'Elite Trainer Boxy', value: 'elite-trainer-box' },
+  { label: 'Plechovky (Tins)', value: 'tin' },
+  { label: 'Mini Tinky', value: 'mini-tin' },
+  { label: 'Blister balenia', value: 'blister-pack' },
+  { label: 'Collection boxy', value: 'collection-box' },
+  { label: 'Build & Battle', value: 'build-and-battle' },
+  { label: 'Decky (Starter/Battle)', value: 'starter-deck' },
+]
+
+export const ProductGallery: React.FC<ProductGalleryProps> = ({
+  products: initialProducts,
+  onCatalogRefresh,
+}) => {
   const [productsList, setProductsList] = useState<ProductData[]>(initialProducts)
+  const [selectedGame, setSelectedGame] = useState<TcgGame | 'all'>('all')
   const [selectedType, setSelectedType] = useState<ProductType | 'all'>('all')
+  const [selectedLang, setSelectedLang] = useState<'all' | 'en' | 'de' | 'jp'>('all')
   const [searchQuery, setSearchQuery] = useState('')
   const [activeModalProduct, setActiveModalProduct] = useState<ProductData | null>(null)
+  const [showSyncModal, setShowSyncModal] = useState(false)
 
-  // Custom DB item connector modal state
-  const [showAddCustomModal, setShowAddCustomModal] = useState(false)
-  const [customName, setCustomName] = useState('')
-  const [customType, setCustomType] = useState<ProductType>('booster-pack')
-  const [customFrontUrl, setCustomFrontUrl] = useState('')
-  const [customPrice, setCustomPrice] = useState('4.99')
-
-  // Keep synced if parent products change
   React.useEffect(() => {
     setProductsList(initialProducts)
   }, [initialProducts])
 
-  // Filter & Search computation
   const filteredProducts = useMemo(() => {
     return productsList.filter((p) => {
+      const matchesGame = selectedGame === 'all' || (p.game || 'pokemon') === selectedGame
       const matchesType = selectedType === 'all' || p.type === selectedType
+      const matchesLang = selectedLang === 'all' || (p.language || 'en') === selectedLang
+      const q = searchQuery.toLowerCase().trim()
       const matchesQuery =
-        !searchQuery.trim() ||
-        p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        p.slug.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        p.set?.toLowerCase().includes(searchQuery.toLowerCase())
+        !q ||
+        p.name.toLowerCase().includes(q) ||
+        p.slug.toLowerCase().includes(q) ||
+        p.set?.toLowerCase().includes(q) ||
+        p.series?.toLowerCase().includes(q)
 
-      return matchesType && matchesQuery
+      return matchesGame && matchesType && matchesLang && matchesQuery
     })
-  }, [productsList, selectedType, searchQuery])
+  }, [productsList, selectedGame, selectedType, selectedLang, searchQuery])
 
-  // Add custom product from database / e-shop input
-  const handleAddCustomProduct = (e: React.FormEvent) => {
-    e.preventDefault()
-    if (!customName.trim()) return
-
-    const slug = customName.toLowerCase().replace(/[^a-z0-9]+/g, '-')
-    const newProduct = createProduct({
-      id: `custom-${Date.now()}`,
-      name: customName,
-      slug,
-      type: customType,
-      price: parseFloat(customPrice) || 0,
-      textures: {
-        front: customFrontUrl || '/textures/pokemon-151-booster/front.webp',
-        back: '/textures/pokemon-151-booster/back.webp',
-        side: '/textures/pokemon-151-booster/side.webp',
-        top: '/textures/pokemon-151-booster/top.webp',
-        thumbnail: customFrontUrl || '/textures/pokemon-151-booster/thumbnail.webp',
-      },
-    })
-
-    setProductsList((prev) => [newProduct, ...prev])
-    setShowAddCustomModal(false)
-    setCustomName('')
-    setCustomFrontUrl('')
-    setActiveModalProduct(newProduct)
-  }
+  // Show only type tabs that currently have items (or all if >0 matching) so UI stays tidy
+  const typeCounts = useMemo(() => {
+    const map = new Map<string, number>()
+    for (const p of productsList) {
+      if (selectedGame === 'all' || p.game === selectedGame) {
+        map.set(p.type, (map.get(p.type) || 0) + 1)
+      }
+    }
+    return map
+  }, [productsList, selectedGame])
 
   return (
-    <div className="w-full space-y-8">
-      {/* Search and Action Bar */}
-      <div className="flex flex-col md:flex-row items-center justify-between gap-4 bg-slate-900/90 p-4 rounded-2xl border border-slate-800 shadow-xl backdrop-blur-md">
-        {/* Search Input */}
-        <div className="relative w-full md:w-96">
-          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-          <input
-            type="text"
-            placeholder="Hľadať Pokémon produkt (napr. 151, Charizard, Box)..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-2 bg-slate-950/80 border border-slate-700/80 rounded-xl text-sm text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all"
-          />
+    <div className="w-full space-y-6">
+      {/* Search, Language Filter & DB/WordPress Sync Action */}
+      <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-3 bg-slate-900/90 p-4 rounded-2xl border border-slate-800 shadow-xl backdrop-blur-md">
+        <div className="flex flex-col sm:flex-row gap-3 flex-1">
+          <div className="relative flex-1 max-w-md">
+            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+            <input
+              type="text"
+              placeholder="Hľadať produkt (napr. Prismatic, 151 ETB, OP-09, Charizard)..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-10 pr-4 py-2 bg-slate-950/80 border border-slate-700/80 rounded-xl text-sm text-white placeholder-slate-500 focus:outline-none focus:border-blue-500"
+            />
+          </div>
+
+          <div className="inline-flex items-center p-1 rounded-xl bg-slate-950 border border-slate-800 text-xs font-semibold self-start">
+            {(
+              [
+                { label: 'Všetky jazyky', value: 'all' },
+                { label: 'EN', value: 'en' },
+                { label: 'DE', value: 'de' },
+                { label: 'JP', value: 'jp' },
+              ] as const
+            ).map((l) => (
+              <button
+                key={l.value}
+                type="button"
+                onClick={() => setSelectedLang(l.value)}
+                className={`px-2.5 py-1 rounded-lg transition-all cursor-pointer ${
+                  selectedLang === l.value ? 'bg-slate-800 text-white' : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                {l.label}
+              </button>
+            ))}
+          </div>
         </div>
 
-        {/* Buttons / Database hookup */}
-        <div className="flex items-center gap-3 w-full md:w-auto">
-          <button
-            onClick={() => setShowAddCustomModal(true)}
-            className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 active:scale-95 text-white text-xs font-semibold rounded-xl shadow-lg shadow-blue-500/20 transition-all cursor-pointer whitespace-nowrap"
-          >
-            <PlusCircle className="w-4 h-4" />
-            <span>Napojiť produkt z môjho webu / DB</span>
-          </button>
-        </div>
+        <button
+          type="button"
+          onClick={() => setShowSyncModal(true)}
+          className="flex items-center justify-center gap-2 px-4 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 active:scale-95 text-white text-xs font-semibold rounded-xl shadow-lg shadow-blue-500/20 transition-all cursor-pointer whitespace-nowrap"
+        >
+          <PlusCircle className="w-4 h-4" />
+          <span>Pridať podľa názvu / WordPress SQL Sync</span>
+        </button>
       </div>
 
-      {/* Filter Chips */}
+      {/* Multi-TCG Game Switcher */}
+      <div className="flex flex-wrap items-center gap-2">
+        {GAME_FILTERS.map((g) => (
+          <button
+            key={g.value}
+            type="button"
+            onClick={() => {
+              setSelectedGame(g.value)
+              setSelectedType('all')
+            }}
+            className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer border ${
+              selectedGame === g.value
+                ? 'bg-slate-100 text-slate-950 border-white shadow-md'
+                : 'bg-slate-900/80 text-slate-300 border-slate-800 hover:border-slate-600'
+            }`}
+          >
+            {g.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Product Type Filter Chips */}
       <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
         <Filter className="w-4 h-4 text-slate-400 shrink-0 ml-1 mr-1" />
-        {FILTER_OPTIONS.map((opt) => (
+        {TYPE_FILTER_OPTIONS.filter((opt) => opt.value === 'all' || (typeCounts.get(opt.value) || 0) > 0).map((opt) => (
           <button
             key={opt.value}
+            type="button"
             onClick={() => setSelectedType(opt.value)}
-            className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all cursor-pointer ${
+            className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all cursor-pointer ${
               selectedType === opt.value
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-500/30'
                 : 'bg-slate-900/80 text-slate-400 hover:text-white hover:bg-slate-800 border border-slate-800'
             }`}
           >
             {opt.label}
+            {opt.value !== 'all' && ` (${typeCounts.get(opt.value) || 0})`}
           </button>
         ))}
       </div>
 
       {/* Products Grid */}
       {filteredProducts.length === 0 ? (
-        <div className="text-center py-16 bg-slate-900/40 rounded-3xl border border-slate-800">
-          <Layers className="w-12 h-12 text-slate-600 mx-auto mb-3" />
-          <h4 className="text-base font-bold text-slate-300">Žiadne produkty sa nenašli</h4>
-          <p className="text-xs text-slate-500 mt-1">Skúste upraviť hľadaný výraz alebo filter.</p>
+        <div className="text-center py-16 bg-slate-900/40 rounded-3xl border border-slate-800 space-y-3">
+          <Layers className="w-12 h-12 text-slate-600 mx-auto" />
+          <h4 className="text-base font-bold text-slate-300">Žiadne produkty v tejto kombinácii filtrov</h4>
+          <p className="text-xs text-slate-500">
+            Môžete pridať nový produkt automaticky cez vyhľadávač alebo synchronizovať WordPress katalóg.
+          </p>
+          <button
+            type="button"
+            onClick={() => setShowSyncModal(true)}
+            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold cursor-pointer"
+          >
+            <Database className="w-3.5 h-3.5" /> Automaticky pridať produkt
+          </button>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProducts.map((product) => (
             <ProductDisplay
               key={product.id}
@@ -145,74 +197,97 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({ products: initia
         </div>
       )}
 
-      {/* Interactive 3D Inspect Modal */}
+      {/* Product Detail Modal with Obrázky <-> 3D Render Switcher */}
       {activeModalProduct && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-200">
-          <div className="relative w-full max-w-4xl bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
-            {/* Top Close Button */}
+          <div className="relative w-full max-w-5xl bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
             <button
+              type="button"
               onClick={() => setActiveModalProduct(null)}
-              className="absolute top-4 right-4 z-40 p-2 rounded-full bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition-all cursor-pointer backdrop-blur-md"
+              className="absolute top-3.5 right-3.5 z-40 p-2 rounded-full bg-slate-800/90 hover:bg-slate-700 text-slate-300 hover:text-white transition-all cursor-pointer backdrop-blur-md"
               title="Zavrieť"
             >
               <X className="w-5 h-5" />
             </button>
 
-            {/* 3D Viewer Side */}
-            <div className="w-full md:w-3/5 h-[400px] md:h-[550px]">
-              <ProductViewer
+            {/* Left Side: ProductMediaView (Starts on 2D Images, 1-click Switch to 3D Render!) */}
+            <div className="w-full md:w-3/5 h-[430px] md:h-[580px]">
+              <ProductMediaView
+                key={activeModalProduct.id}
                 product={activeModalProduct}
+                defaultMode="images"
                 height="100%"
                 className="border-none rounded-none"
               />
             </div>
 
-            {/* Product Details Side */}
+            {/* Right Side: Product Specs & Metadata */}
             <div className="w-full md:w-2/5 p-6 flex flex-col justify-between bg-slate-950">
               <div>
-                <span className="text-xs uppercase tracking-widest font-bold text-blue-400">
-                  {activeModalProduct.type}
-                </span>
-                <h3 className="text-2xl font-bold text-white mt-1">{activeModalProduct.name}</h3>
-                <p className="text-emerald-400 font-extrabold text-xl mt-2">
-                  {activeModalProduct.price?.toFixed(2)} {activeModalProduct.currency}
-                </p>
+                <div className="flex flex-wrap items-center gap-2 pr-8">
+                  <span
+                    className={`text-[11px] font-bold px-2.5 py-0.5 rounded-full border ${
+                      (TCG_GAMES[activeModalProduct.game] || TCG_GAMES.pokemon).accentClass
+                    }`}
+                  >
+                    {(TCG_GAMES[activeModalProduct.game] || TCG_GAMES.pokemon).label}
+                  </span>
+                  {activeModalProduct.language && (
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded bg-slate-800 text-slate-300">
+                      {LANGUAGE_LABELS[activeModalProduct.language] || activeModalProduct.language}
+                    </span>
+                  )}
+                </div>
 
-                <p className="text-slate-400 text-xs mt-4 leading-relaxed">
-                  {activeModalProduct.description}
-                </p>
+                <h3 className="text-xl font-bold text-white mt-3">{activeModalProduct.name}</h3>
+                {activeModalProduct.price !== undefined && (
+                  <p className="text-emerald-400 font-extrabold text-xl mt-2">
+                    {activeModalProduct.price.toFixed(2)} {activeModalProduct.currency || '€'}
+                  </p>
+                )}
+
+                <p className="text-slate-400 text-xs mt-4 leading-relaxed">{activeModalProduct.description}</p>
 
                 <div className="mt-6 space-y-2 border-t border-slate-800 pt-4 text-xs font-mono">
-                  <div className="flex justify-between">
+                  <div className="flex justify-between gap-2">
+                    <span className="text-slate-500">Typ balenia:</span>
+                    <span className="text-slate-200 text-right">
+                      {PRODUCT_TYPE_PRESETS[activeModalProduct.type]?.label || activeModalProduct.type}
+                    </span>
+                  </div>
+                  <div className="flex justify-between gap-2">
                     <span className="text-slate-500">Séria:</span>
-                    <span className="text-slate-300">{activeModalProduct.series || 'N/A'}</span>
+                    <span className="text-slate-300 text-right">{activeModalProduct.series || 'N/A'}</span>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between gap-2">
                     <span className="text-slate-500">Set:</span>
-                    <span className="text-slate-300">{activeModalProduct.set || 'N/A'}</span>
+                    <span className="text-slate-300 text-right">{activeModalProduct.set || 'N/A'}</span>
                   </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-500">Rozmery (Š×V×H):</span>
+                  <div className="flex justify-between gap-2">
+                    <span className="text-slate-500">Rozmery 3D:</span>
                     <span className="text-slate-300">
                       {activeModalProduct.dimensions.width} × {activeModalProduct.dimensions.height} ×{' '}
                       {activeModalProduct.dimensions.depth}
                     </span>
                   </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-500">Foil odlesk (Clearcoat):</span>
-                    <span className="text-emerald-400 font-bold">
-                      {Math.round(activeModalProduct.material.clearcoat * 100)}%
-                    </span>
-                  </div>
+                  {activeModalProduct.imageSource && (
+                    <div className="flex justify-between gap-2">
+                      <span className="text-slate-500">Zdroj obrázkov:</span>
+                      <span className="text-blue-400 text-right truncate max-w-[180px]" title={activeModalProduct.imageSource}>
+                        {activeModalProduct.imageSource}
+                      </span>
+                    </div>
+                  )}
                 </div>
               </div>
 
-              <div className="mt-6 flex gap-3">
+              <div className="mt-6 pt-4 border-t border-slate-800 flex gap-3">
                 <button
+                  type="button"
                   onClick={() => setActiveModalProduct(null)}
-                  className="w-full py-2.5 bg-slate-800 hover:bg-slate-700 active:scale-95 text-white font-medium text-xs rounded-xl transition-all cursor-pointer"
+                  className="w-full py-2.5 bg-slate-800 hover:bg-slate-700 active:scale-95 text-white font-semibold text-xs rounded-xl transition-all cursor-pointer"
                 >
-                  Zavrieť
+                  Zavrieť detail
                 </button>
               </div>
             </div>
@@ -220,84 +295,21 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({ products: initia
         </div>
       )}
 
-      {/* Add Custom Product from DB Modal */}
-      {showAddCustomModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-200">
-          <div className="relative w-full max-w-md bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl">
-            <h3 className="text-lg font-bold text-white mb-1">Napojiť produkt z vlastnej databázy</h3>
-            <p className="text-xs text-slate-400 mb-5">
-              Zadajte názov produktu z vášho e-shopu alebo databázy. Systém automaticky priradí 3D geometriu, rozmery a foil materiály.
-            </p>
-
-            <form onSubmit={handleAddCustomProduct} className="space-y-4 text-xs">
-              <div>
-                <label className="block text-slate-300 font-semibold mb-1">Názov produktu v e-shope / DB</label>
-                <input
-                  type="text"
-                  required
-                  placeholder="napr. Pokémon Paldea Evolved Booster Box"
-                  value={customName}
-                  onChange={(e) => setCustomName(e.target.value)}
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white placeholder-slate-600 focus:outline-none focus:border-blue-500"
-                />
-              </div>
-
-              <div>
-                <label className="block text-slate-300 font-semibold mb-1">Typ balenia (Typ geometrie)</label>
-                <select
-                  value={customType}
-                  onChange={(e) => setCustomType(e.target.value as ProductType)}
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-blue-500"
-                >
-                  <option value="booster-pack">Booster Pack (Fóliový balíček)</option>
-                  <option value="booster-box">Booster Box (Displej box)</option>
-                  <option value="elite-trainer-box">Elite Trainer Box (ETB)</option>
-                  <option value="tin">Plechová krabička (Tin)</option>
-                  <option value="blister-pack">Blister balenie</option>
-                  <option value="collection-box">Collection Box</option>
-                </select>
-              </div>
-
-              <div>
-                <label className="block text-slate-300 font-semibold mb-1">URL fotky produktu (voliteľné)</label>
-                <input
-                  type="url"
-                  placeholder="https://... (ak necháte prázdne, použije sa demo textúra)"
-                  value={customFrontUrl}
-                  onChange={(e) => setCustomFrontUrl(e.target.value)}
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white placeholder-slate-600 focus:outline-none focus:border-blue-500"
-                />
-              </div>
-
-              <div>
-                <label className="block text-slate-300 font-semibold mb-1">Cena (€)</label>
-                <input
-                  type="number"
-                  step="0.01"
-                  value={customPrice}
-                  onChange={(e) => setCustomPrice(e.target.value)}
-                  className="w-full px-3 py-2 bg-slate-950 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-blue-500"
-                />
-              </div>
-
-              <div className="flex gap-3 pt-3">
-                <button
-                  type="button"
-                  onClick={() => setShowAddCustomModal(false)}
-                  className="flex-1 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold rounded-xl transition-all cursor-pointer"
-                >
-                  Zrušiť
-                </button>
-                <button
-                  type="submit"
-                  className="flex-1 py-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/30 transition-all cursor-pointer flex items-center justify-center gap-1.5"
-                >
-                  <Check className="w-4 h-4" /> Vytvoriť 3D Render
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+      {/* WordPress / SQL & Auto-Resolve Modal */}
+      {showSyncModal && (
+        <WordPressSyncModal
+          onClose={() => setShowSyncModal(false)}
+          onProductCreated={(product) => {
+            setProductsList((prev) => {
+              const filtered = prev.filter((p) => p.id !== product.id && p.slug !== product.slug)
+              return [product, ...filtered]
+            })
+            setActiveModalProduct(product)
+          }}
+          onCatalogSynced={async () => {
+            if (onCatalogRefresh) await onCatalogRefresh()
+          }}
+        />
       )}
     </div>
   )

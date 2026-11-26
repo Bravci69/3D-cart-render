@@ -267,6 +267,7 @@ export async function processRealScannedProducts() {
         id: item.id,
         name: item.name,
         slug: item.slug,
+        game: 'pokemon',
         type: 'booster-pack',
         series: item.series,
         set: item.set,

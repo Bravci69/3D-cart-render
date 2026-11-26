@@ -1,23 +1,27 @@
-import { useState } from 'react'
-import { Sparkles, Sliders, Code2, Database, ShieldCheck, Box, RefreshCw } from 'lucide-react'
-import { useProducts } from './hooks/useProducts.ts'
-import { ProductViewer } from './components/ProductViewer.tsx'
+import { useCallback, useState } from 'react'
+import { Box, Code2, Database, Globe, RefreshCw, ShieldCheck, Sliders, Sparkles } from 'lucide-react'
 import { ProductGallery } from './components/ProductGallery.tsx'
+import { ProductMediaView } from './components/ProductMediaView.tsx'
 import { LoadingSpinner } from './components/LoadingSpinner.tsx'
+import { useProducts } from './hooks/useProducts.ts'
+import { productService } from './services/productService.ts'
 import type { ProductData } from './types/product.ts'
 
 export function App() {
-  const { products, loading } = useProducts()
+  const { products, loading, setProducts } = useProducts()
   const [selectedHeroProduct, setSelectedHeroProduct] = useState<ProductData | null>(null)
 
-  // Realtime Material Customization for Hero
-  const [roughness, setRoughness] = useState<number>(0.22)
-  const [metalness, setMetalness] = useState<number>(0.35)
-  const [clearcoat, setClearcoat] = useState<number>(0.85)
+  // Material slider overrides for quick shader tuning
+  const [roughness, setRoughness] = useState<number>(0.24)
+  const [metalness, setMetalness] = useState<number>(0.32)
+  const [clearcoat, setClearcoat] = useState<number>(0.78)
 
-  // Active hero product or fallback
+  const refreshCatalog = useCallback(async () => {
+    const fresh = await productService.getAll()
+    setProducts(fresh)
+  }, [setProducts])
+
   const heroProduct: ProductData | null = selectedHeroProduct || products[0] || null
-
   const customizedHeroProduct = heroProduct
     ? {
         ...heroProduct,
@@ -29,6 +33,21 @@ export function App() {
         },
       }
     : null
+
+  // Pick a diverse sample of up to 5 featured products across product types/games for the Hero switcher
+  const heroQuickSamples = (() => {
+    const seenTypes = new Set<string>()
+    const picks: ProductData[] = []
+    for (const p of products) {
+      const key = `${p.game}:${p.type}`
+      if (!seenTypes.has(key)) {
+        seenTypes.add(key)
+        picks.push(p)
+      }
+      if (picks.length >= 6) break
+    }
+    return picks
+  })()
 
   return (
     <div className="min-h-screen bg-[#080c16] text-slate-100 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
@@ -42,65 +61,63 @@ export function App() {
             <h1 className="text-base font-extrabold tracking-tight text-white flex items-center gap-2">
               CardCatcher <span className="text-xs px-2 py-0.5 rounded-md bg-blue-500/20 text-blue-400 border border-blue-500/30 font-mono">3D ENGINE</span>
             </h1>
-            <p className="text-xs text-slate-400">Optimalizovaný 3D web render Pokémon balíčkov</p>
+            <p className="text-xs text-slate-400">Pokémon · Magic · One Piece · League of Legends 3D Showcase</p>
           </div>
         </div>
 
-        <div className="hidden sm:flex items-center gap-4 text-xs font-medium text-slate-300">
+        <div className="hidden sm:flex items-center gap-3 text-xs font-medium text-slate-300">
           <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            WebGPU / WebGL 2 ready
+            WordPress &amp; SQL Sync Ready
           </span>
           <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">
-            ⚡ ~110 KB na produkt
+            Fotky ↔ 3D prepínač
           </span>
         </div>
       </header>
 
-      {/* Main Container */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-8 space-y-16">
-        {/* HERO SECTION: 3D Showcase & Material Configurator */}
+        {/* HERO SECTION */}
         <section className="relative rounded-3xl bg-gradient-to-br from-slate-900/90 via-slate-950 to-slate-900 border border-slate-800/80 p-6 md:p-10 shadow-2xl overflow-hidden">
           <div className="absolute top-0 right-0 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl pointer-events-none" />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
-            {/* Left Column: Hero Text & Controls */}
             <div className="lg:col-span-5 space-y-6">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gradient-to-r from-blue-500/10 to-indigo-500/10 border border-blue-500/30 text-blue-400 text-xs font-semibold">
                 <Sparkles className="w-3.5 h-3.5" />
-                Fotorealistický procedurálny render
+                Multi-TCG Automatický 3D Engine
               </div>
 
               <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
-                Okamžitý 3D náhľad pre váš Pokémon web
+                Fotky produktu &amp; okamžitý 3D render pre váš WordPress
               </h2>
 
               <p className="text-sm text-slate-400 leading-relaxed">
-                Z obyčajných fotografií alebo názvov produktov vo vašej databáze systém vytvorí odľahčený, interaktívny 3D model s realistickým fóliovým leskom bez sťahovania gigantických 3D súborov.
+                Systém sa synchronizuje s WooCommerce REST API alebo základnou WordPress SQL databázou, automaticky vyhľadá reálne fotografie pre ETB, boxy, tinky, bundle aj balíčky (EN aj DE verzie) a ponúkne zákazníkovi prepínač medzi obrázkami a 3D modelom.
               </p>
 
-              {/* Realtime 3D Shader Controls */}
-              <div className="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-4">
+              {/* Material Shader Controls */}
+              <div className="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-3.5">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-slate-300 flex items-center gap-2">
                     <Sliders className="w-4 h-4 text-blue-400" />
-                    Ladenie odleskov v reálnom čase
+                    Ladenie odleskov materiálu
                   </span>
                   <button
+                    type="button"
                     onClick={() => {
-                      setRoughness(0.22)
-                      setMetalness(0.35)
-                      setClearcoat(0.85)
+                      setRoughness(0.24)
+                      setMetalness(0.32)
+                      setClearcoat(0.78)
                     }}
                     title="Obnoviť predvolené"
-                    className="text-slate-500 hover:text-white transition-colors"
+                    className="text-slate-500 hover:text-white transition-colors cursor-pointer"
                   >
                     <RefreshCw className="w-3.5 h-3.5" />
                   </button>
                 </div>
 
-                {/* Clearcoat (Foil gloss) */}
                 <div className="space-y-1">
                   <div className="flex justify-between text-xs text-slate-400">
                     <span>Fóliový lesk (Clearcoat):</span>
@@ -117,7 +134,6 @@ export function App() {
                   />
                 </div>
 
-                {/* Metalness */}
                 <div className="space-y-1">
                   <div className="flex justify-between text-xs text-slate-400">
                     <span>Metalickosť (Metalness):</span>
@@ -134,7 +150,6 @@ export function App() {
                   />
                 </div>
 
-                {/* Roughness */}
                 <div className="space-y-1">
                   <div className="flex justify-between text-xs text-slate-400">
                     <span>Drsnosť povrchu (Roughness):</span>
@@ -152,36 +167,39 @@ export function App() {
                 </div>
               </div>
 
-              {/* Quick Model Selector */}
+              {/* Quick Format Switcher */}
               <div className="space-y-2">
-                <span className="text-xs text-slate-400 font-medium">Vyskúšajte iný produkt:</span>
+                <span className="text-xs text-slate-400 font-medium">Rýchla ukážka rôznych balení a TCG:</span>
                 <div className="flex flex-wrap gap-2">
-                  {products.slice(0, 4).map((p) => (
+                  {heroQuickSamples.map((p) => (
                     <button
                       key={p.id}
+                      type="button"
                       onClick={() => setSelectedHeroProduct(p)}
                       className={`text-xs px-3 py-1.5 rounded-lg border transition-all cursor-pointer ${
-                        (heroProduct?.id === p.id)
+                        heroProduct?.id === p.id
                           ? 'bg-blue-600 text-white border-blue-500 font-semibold shadow-md shadow-blue-500/20'
                           : 'bg-slate-900 text-slate-300 border-slate-800 hover:border-slate-700'
                       }`}
                     >
-                      {p.name.split(' ')[1] || p.name}
+                      {p.name.length > 26 ? `${p.name.slice(0, 26)}…` : p.name}
                     </button>
                   ))}
                 </div>
               </div>
             </div>
 
-            {/* Right Column: 3D Interactive Hero Canvas */}
-            <div className="lg:col-span-7 h-[460px] sm:h-[540px]">
+            {/* Right Column: Hero ProductMediaView (Images + 3D Toggle!) */}
+            <div className="lg:col-span-7 h-[480px] sm:h-[550px]">
               {loading || !customizedHeroProduct ? (
                 <div className="w-full h-full flex items-center justify-center rounded-2xl bg-slate-950 border border-slate-800">
-                  <LoadingSpinner message="Inicializujem 3D scénu..." />
+                  <LoadingSpinner message="Načítavam ukážkový produkt..." />
                 </div>
               ) : (
-                <ProductViewer
+                <ProductMediaView
+                  key={customizedHeroProduct.id}
                   product={customizedHeroProduct}
+                  defaultMode="3d"
                   height="100%"
                   className="rounded-3xl shadow-2xl"
                 />
@@ -190,15 +208,15 @@ export function App() {
           </div>
         </section>
 
-        {/* SECTION: Features / Performance Pillars */}
+        {/* SECTION: Features */}
         <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="p-6 rounded-2xl bg-slate-900/50 border border-slate-800/80 space-y-3">
             <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400">
-              <ShieldCheck className="w-5 h-5" />
+              <Globe className="w-5 h-5" />
             </div>
-            <h3 className="font-bold text-white text-base">Maximálna web optimalizácia</h3>
+            <h3 className="font-bold text-white text-base">Automatické hľadanie obrázkov</h3>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Žiadne 15MB glTF súbory. Používa procedurálnu geometriu v browseri a mikroskopické WebP textúry (~110KB na celý balíček).
+              Stačí názov z databázy. Backend vyhľadá oficiálne EN/DE obrázky aj zadné uhly, oreže okraje a vygeneruje ľahké WebP textúry bez black barov.
             </p>
           </div>
 
@@ -206,34 +224,34 @@ export function App() {
             <div className="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400">
               <Database className="w-5 h-5" />
             </div>
-            <h3 className="font-bold text-white text-base">Napojenie na vašu databázu</h3>
+            <h3 className="font-bold text-white text-base">WordPress REST API &amp; Basic SQL</h3>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Funguje na základe názvov produktov cez inteligentné mapovanie. Stačí poslať názov z e-shopu a engine zvolí správne proporcie.
+              Priama synchronizácia WooCommerce produktov cez `wp-json` alebo MySQL dopyt do `wp_posts`/`wp_postmeta` + pripravený PHP plugin pre WordPress.
             </p>
           </div>
 
           <div className="p-6 rounded-2xl bg-slate-900/50 border border-slate-800/80 space-y-3">
             <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
-              <Code2 className="w-5 h-5" />
+              <ShieldCheck className="w-5 h-5" />
             </div>
-            <h3 className="font-bold text-white text-base">Jednoduchý Embed kód</h3>
+            <h3 className="font-bold text-white text-base">Pripravené pre ďalšie TCG hry</h3>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Pripravené na integráciu do ľubovoľného webu (WordPress, WooCommerce, Shoptet, vlastný HTML/PHP web) jedným riadkom.
+              Modulárni provideri pre <b>Pokémon TCG</b>, <b>Magic: The Gathering</b>, <b>One Piece Card Game</b> aj <b>League of Legends (Riftbound)</b>.
             </p>
           </div>
         </section>
 
-        {/* SECTION: Catalog Gallery */}
+        {/* SECTION: Full Catalog Gallery */}
         <section className="space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-slate-800 pb-4">
             <div>
-              <h2 className="text-2xl font-extrabold text-white">Katalóg Pokémon produktov</h2>
+              <h2 className="text-2xl font-extrabold text-white">Katalóg TCG produktov</h2>
               <p className="text-xs text-slate-400 mt-1">
-                Ukážka lazy-loadingu – kliknutím na "3D Pohľad" sa inicializuje WebGL plátno len pre daný produkt
+                Kliknite na produkt alebo &quot;Detail&quot; pre zobrazenie fotiek s tlačidlom prepnutia na 3D render
               </p>
             </div>
             <span className="text-xs font-mono text-slate-500">
-              Celkovo {products.length} produktov pripravených na render
+              Celkovo {products.length} synchronizovaných produktov
             </span>
           </div>
 
@@ -244,56 +262,54 @@ export function App() {
           ) : (
             <ProductGallery
               products={products}
-              onSelectProduct={(p) => setSelectedHeroProduct(p)}
+              onCatalogRefresh={refreshCatalog}
             />
           )}
         </section>
 
-        {/* SECTION: How to integrate into your website */}
+        {/* SECTION: WordPress Integration Guide */}
         <section className="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 space-y-6">
           <div className="flex items-center gap-3">
             <Code2 className="w-6 h-6 text-blue-400" />
             <div>
-              <h3 className="text-lg font-bold text-white">Ako to vložiť do vášho existujúceho webu</h3>
-              <p className="text-xs text-slate-400">Príklad integrácie do Shoptet, WooCommerce alebo vlastného e-shopu</p>
+              <h3 className="text-lg font-bold text-white">Integrácia do WordPress / WooCommerce</h3>
+              <p className="text-xs text-slate-400">
+                Zákazník vidí fotky produktu a jedným klikom prepne do interaktívneho 3D modelu (súbor wordpress/cardcatcher-3d-viewer.php)
+              </p>
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* HTML snippet */}
             <div className="space-y-2">
-              <span className="text-xs font-semibold text-slate-300">1. Vloženie jedného 3D produktu na stránku produktu:</span>
+              <span className="text-xs font-semibold text-slate-300">1. WooCommerce šablóna / Shortcode [cardcatcher_3d]:</span>
               <pre className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-blue-300 font-mono overflow-x-auto">
-{`<!-- Miesto vo vašej produktovej šablóne -->
-<div 
+{`<div
   data-cardcatcher-3d
-  data-product-name="Pokémon 151 Booster Pack">
+  data-api-url="https://api.vas-web.sk/api"
+  data-product-name="Pokémon Prismatic Evolutions ETB"
+  data-default-view="images">
 </div>
-
-<!-- Načítanie ľahkého skriptu -->
 <script src="/dist/lib/cardcatcher-3d.umd.js"></script>`}
               </pre>
             </div>
 
-            {/* REST API snippet */}
             <div className="space-y-2">
-              <span className="text-xs font-semibold text-slate-300">2. Napojenie na vašu databázu produktov (JavaScript API):</span>
+              <span className="text-xs font-semibold text-slate-300">2. Automatická synchronizácia z WordPress SQL / REST:</span>
               <pre className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-emerald-300 font-mono overflow-x-auto">
-{`// Automatické namapovanie podľa názvu z vašej DB
-import { productService, ProductViewer } from 'cardcatcher-3d'
-
-const product = await productService.matchByName("Paldea Evolved Box");
-// Vráti optimalizovaný 3D config s presnými rozmermi!`}
+{`POST /api/sync/wordpress
+{
+  "mode": "wp-rest", // alebo "wp-sql"
+  "siteUrl": "https://vas-eshop.sk",
+  "limit": 50
+}`}
               </pre>
             </div>
           </div>
         </section>
       </main>
 
-      {/* Footer */}
       <footer className="mt-20 border-t border-slate-800/80 bg-slate-950/80 py-8 px-6 text-center text-xs text-slate-500">
-        <p>CardCatcher 3D Render Engine – Navrhnuté pre maximálny výkon a rýchlosť načítania e-shopov s Pokémon kartami.</p>
-        <p className="mt-1">Využíva React Three Fiber, WebGL / WebGPU a procedurálne materiály.</p>
+        <p>CardCatcher 3D Render Engine – Multi-TCG (Pokémon, Magic, One Piece, LoL) s WordPress &amp; SQL synchronizáciou.</p>
       </footer>
     </div>
   )

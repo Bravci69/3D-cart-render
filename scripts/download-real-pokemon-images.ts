@@ -335,6 +335,7 @@ export async function generateCleanTextures() {
         id: item.id,
         name: item.name,
         slug: item.slug,
+        game: 'pokemon',
         type: item.type,
         series: item.series,
         set: item.set,

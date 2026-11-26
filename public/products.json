@@ -1,354 +1,4475 @@
 [
   {
-    "id": "pkm-1999-base-charizard",
-    "name": "1999 Base Set 1st Edition Booster (Charizard)",
-    "slug": "pokemon-1999-base-charizard",
-    "type": "booster-pack",
-    "series": "Classic Vintage",
-    "set": "Base Set (1st Edition)",
-    "releaseYear": 1999,
-    "price": 499,
+    "id": "pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon",
+    "name": "Evolving Skies Elite Trainer Box [Flareon/Jolteon/Umbreon/Leafeon]",
+    "slug": "pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Evolving Skies",
+    "setCode": "swsh7",
+    "releaseYear": 2021,
+    "price": 229,
     "currency": "€",
-    "description": "100% autentický sken originálneho balíčka Base Set 1st Edition s Charizardom. Reálna fotka prednej aj zadnej strany balíčka zo skutočného fyzického produktu.",
+    "description": "Zberateľský Elite Trainer Box zo série Sword & Shield – Evolving Skies (edícia Flareon / Jolteon / Umbreon / Leafeon).",
+    "textures": {
+      "front": "/textures/pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon/front.webp",
+      "back": "/textures/pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon/back.webp",
+      "side": "/textures/pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon/side.webp",
+      "top": "/textures/pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon/top.webp",
+      "thumbnail": "/textures/pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon/gallery-2.webp",
+        "label": "elite trainer box2",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon/gallery-3.webp",
+        "label": "pc etb",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:32:05.802Z",
+    "imageSource": "ptcg-assets (swsh7) + zadná fotka",
     "dimensions": {
-      "width": 2.1,
-      "height": 3.4,
-      "depth": 0.12,
-      "bevelRadius": 0.02
+      "width": 3.1,
+      "height": 2.97,
+      "depth": 1.85,
+      "bevelRadius": 0.05
     },
     "material": {
-      "roughness": 0.22,
-      "metalness": 0.45,
-      "clearcoat": 0.9,
-      "clearcoatRoughness": 0.12
-    },
-    "textures": {
-      "front": "/textures/pokemon-1999-base-charizard/front.webp",
-      "back": "/textures/pokemon-1999-base-charizard/back.webp",
-      "side": "/textures/pokemon-1999-base-charizard/side.webp",
-      "top": "/textures/pokemon-1999-base-charizard/top.webp",
-      "thumbnail": "/textures/pokemon-1999-base-charizard/thumbnail.webp"
-    },
-    "featured": true
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
   },
   {
-    "id": "pkm-1999-base-blastoise",
-    "name": "1999 Base Set 1st Edition Booster (Blastoise)",
-    "slug": "pokemon-1999-base-blastoise",
-    "type": "booster-pack",
-    "series": "Classic Vintage",
-    "set": "Base Set (1st Edition)",
-    "releaseYear": 1999,
-    "price": 450,
+    "id": "pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon",
+    "name": "Evolving Skies Elite Trainer Box [Vaporeon/Espeon/Glaceon/Sylveon]",
+    "slug": "pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Evolving Skies",
+    "setCode": "swsh7",
+    "releaseYear": 2021,
+    "price": 229,
     "currency": "€",
-    "description": "100% autentický sken originálneho balíčka Base Set 1st Edition s Blastoise artworkom. Kompletný reálny sken oboch strán.",
+    "description": "Zberateľský Elite Trainer Box Evolving Skies (edícia Vaporeon / Espeon / Glaceon / Sylveon).",
+    "textures": {
+      "front": "/textures/pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon/front.webp",
+      "back": "/textures/pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon/back.webp",
+      "side": "/textures/pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon/side.webp",
+      "top": "/textures/pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon/top.webp",
+      "thumbnail": "/textures/pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon/gallery-2.webp",
+        "label": "elite trainer box",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon/gallery-3.webp",
+        "label": "pc etb2",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-evolving-skies-elite-trainer-box-vaporeon-espeon-glaceon-sylveon/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:07.993Z",
+    "imageSource": "ptcg-assets (swsh7) + zadná fotka",
     "dimensions": {
-      "width": 2.1,
-      "height": 3.4,
-      "depth": 0.12,
-      "bevelRadius": 0.02
+      "width": 3.1,
+      "height": 2.96,
+      "depth": 1.85,
+      "bevelRadius": 0.05
     },
     "material": {
-      "roughness": 0.22,
-      "metalness": 0.45,
-      "clearcoat": 0.9,
-      "clearcoatRoughness": 0.12
-    },
-    "textures": {
-      "front": "/textures/pokemon-1999-base-blastoise/front.webp",
-      "back": "/textures/pokemon-1999-base-blastoise/back.webp",
-      "side": "/textures/pokemon-1999-base-blastoise/side.webp",
-      "top": "/textures/pokemon-1999-base-blastoise/top.webp",
-      "thumbnail": "/textures/pokemon-1999-base-blastoise/thumbnail.webp"
-    },
-    "featured": true
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
   },
   {
-    "id": "pkm-1999-base-venusaur",
-    "name": "1999 Base Set 1st Edition Booster (Venusaur)",
-    "slug": "pokemon-1999-base-venusaur",
-    "type": "booster-pack",
-    "series": "Classic Vintage",
-    "set": "Base Set (1st Edition)",
-    "releaseYear": 1999,
-    "price": 420,
+    "id": "pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov",
+    "name": "Pokémon Evolving Skies Booster Display Box (36 packov)",
+    "slug": "pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Evolving Skies",
+    "setCode": "swsh7",
+    "releaseYear": 2021,
+    "price": 899,
     "currency": "€",
-    "description": "Originálny vintage booster pack Base Set s Venusaur artworkom. Skutočné fotografie prednej a zadnej fólie.",
+    "description": "Ikonický zapečatený Booster Box Sword & Shield Evolving Skies (36 balíčkov).",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov/front.webp",
+      "back": "/textures/pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov/back.webp",
+      "side": "/textures/pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov/side.webp",
+      "top": "/textures/pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-evolving-skies-booster-display-box-36-packov/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:32:07.500Z",
+    "imageSource": "ptcg-assets (swsh7) + zadná fotka",
     "dimensions": {
-      "width": 2.1,
-      "height": 3.4,
-      "depth": 0.12,
-      "bevelRadius": 0.02
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
     },
     "material": {
-      "roughness": 0.22,
-      "metalness": 0.45,
-      "clearcoat": 0.9,
-      "clearcoatRoughness": 0.12
-    },
-    "textures": {
-      "front": "/textures/pokemon-1999-base-venusaur/front.webp",
-      "back": "/textures/pokemon-1999-base-venusaur/back.webp",
-      "side": "/textures/pokemon-1999-base-venusaur/side.webp",
-      "top": "/textures/pokemon-1999-base-venusaur/top.webp",
-      "thumbnail": "/textures/pokemon-1999-base-venusaur/thumbnail.webp"
-    },
-    "featured": true
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
   },
   {
-    "id": "pkm-2000-team-rocket-giovanni",
-    "name": "Team Rocket Booster Pack (Giovanni)",
-    "slug": "pokemon-team-rocket-giovanni",
+    "id": "pokemon-en-pokemon-evolving-skies-booster-pack-umbreon",
+    "name": "Pokémon Evolving Skies Booster Pack (Umbreon)",
+    "slug": "pokemon-en-pokemon-evolving-skies-booster-pack-umbreon",
+    "game": "pokemon",
     "type": "booster-pack",
-    "series": "Classic Vintage",
-    "set": "Team Rocket",
-    "releaseYear": 2000,
-    "price": 290,
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Evolving Skies",
+    "setCode": "swsh7",
+    "releaseYear": 2021,
+    "price": 19.99,
     "currency": "€",
-    "description": "Originálny booster balíček Team Rocket s bossom Giovannim. Reálne skeny fyzického balíčka z oboch strán.",
-    "dimensions": {
-      "width": 2.1,
-      "height": 3.4,
-      "depth": 0.12,
-      "bevelRadius": 0.02
-    },
-    "material": {
-      "roughness": 0.25,
-      "metalness": 0.4,
-      "clearcoat": 0.85,
-      "clearcoatRoughness": 0.15
-    },
+    "description": "Samostatný booster balíček Evolving Skies s Umbreon artworkom.",
     "textures": {
-      "front": "/textures/pokemon-team-rocket-giovanni/front.webp",
-      "back": "/textures/pokemon-team-rocket-giovanni/back.webp",
-      "side": "/textures/pokemon-team-rocket-giovanni/side.webp",
-      "top": "/textures/pokemon-team-rocket-giovanni/top.webp",
-      "thumbnail": "/textures/pokemon-team-rocket-giovanni/thumbnail.webp"
+      "front": "/textures/pokemon-en-pokemon-evolving-skies-booster-pack-umbreon/front.webp",
+      "back": "/textures/pokemon-en-pokemon-evolving-skies-booster-pack-umbreon/back.webp",
+      "side": "/textures/pokemon-en-pokemon-evolving-skies-booster-pack-umbreon/side.webp",
+      "top": "/textures/pokemon-en-pokemon-evolving-skies-booster-pack-umbreon/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-evolving-skies-booster-pack-umbreon/thumbnail.webp"
     },
-    "featured": true
-  },
-  {
-    "id": "pkm-1999-fossil-pack",
-    "name": "Fossil Booster Pack (Aerodactyl)",
-    "slug": "pokemon-fossil-pack",
-    "type": "booster-pack",
-    "series": "Classic Vintage",
-    "set": "Fossil",
-    "releaseYear": 1999,
-    "price": 260,
-    "currency": "€",
-    "description": "Skutočný fyzický scan obalu Fossil s Aerodactylom. Predná aj zadná strana z originálneho fóliového balíčka.",
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-evolving-skies-booster-pack-umbreon/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-evolving-skies-booster-pack-umbreon/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-evolving-skies-booster-pack-umbreon/gallery-2.webp",
+        "label": "SWSH7 Booster Gigantamax Duraludon",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-evolving-skies-booster-pack-umbreon/gallery-3.webp",
+        "label": "SWSH7 Booster Rayquaza",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-evolving-skies-booster-pack-umbreon/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:08.343Z",
+    "imageSource": "ptcg-assets (swsh7) + zadná fotka",
     "dimensions": {
-      "width": 2.1,
+      "width": 2,
       "height": 3.4,
-      "depth": 0.12,
-      "bevelRadius": 0.02
-    },
-    "material": {
-      "roughness": 0.25,
-      "metalness": 0.4,
-      "clearcoat": 0.85,
-      "clearcoatRoughness": 0.15
-    },
-    "textures": {
-      "front": "/textures/pokemon-fossil-pack/front.webp",
-      "back": "/textures/pokemon-fossil-pack/back.webp",
-      "side": "/textures/pokemon-fossil-pack/side.webp",
-      "top": "/textures/pokemon-fossil-pack/top.webp",
-      "thumbnail": "/textures/pokemon-fossil-pack/thumbnail.webp"
-    },
-    "featured": true
-  },
-  {
-    "id": "pkm-1999-jungle-pack",
-    "name": "Jungle Booster Pack (Scyther)",
-    "slug": "pokemon-jungle-pack",
-    "type": "booster-pack",
-    "series": "Classic Vintage",
-    "set": "Jungle",
-    "releaseYear": 1999,
-    "price": 275,
-    "currency": "€",
-    "description": "Originálny fyzický scan balíčka Jungle s legendárnym Scytherom. Skutočné fotografie všetkých plôch.",
-    "dimensions": {
-      "width": 2.1,
-      "height": 3.4,
-      "depth": 0.12,
-      "bevelRadius": 0.02
-    },
-    "material": {
-      "roughness": 0.25,
-      "metalness": 0.4,
-      "clearcoat": 0.85,
-      "clearcoatRoughness": 0.15
-    },
-    "textures": {
-      "front": "/textures/pokemon-jungle-pack/front.webp",
-      "back": "/textures/pokemon-jungle-pack/back.webp",
-      "side": "/textures/pokemon-jungle-pack/side.webp",
-      "top": "/textures/pokemon-jungle-pack/top.webp",
-      "thumbnail": "/textures/pokemon-jungle-pack/thumbnail.webp"
-    },
-    "featured": true
-  },
-  {
-    "id": "pkm-2000-neo-genesis-lugia",
-    "name": "Neo Genesis Booster Pack (Lugia)",
-    "slug": "pokemon-neo-genesis-lugia",
-    "type": "booster-pack",
-    "series": "Neo Series",
-    "set": "Neo Genesis",
-    "releaseYear": 2000,
-    "price": 380,
-    "currency": "€",
-    "description": "Kompletný originálny scan balíčka Neo Genesis s Lugia artworkom. Reálna fotka prednej strany a zadnej strany s čiarovým kódom.",
-    "dimensions": {
-      "width": 2.1,
-      "height": 3.4,
-      "depth": 0.12,
+      "depth": 0.14,
       "bevelRadius": 0.02
     },
     "material": {
       "roughness": 0.2,
-      "metalness": 0.48,
+      "metalness": 0.42,
       "clearcoat": 0.9,
       "clearcoatRoughness": 0.12
-    },
-    "textures": {
-      "front": "/textures/pokemon-neo-genesis-lugia/front.webp",
-      "back": "/textures/pokemon-neo-genesis-lugia/back.webp",
-      "side": "/textures/pokemon-neo-genesis-lugia/side.webp",
-      "top": "/textures/pokemon-neo-genesis-lugia/top.webp",
-      "thumbnail": "/textures/pokemon-neo-genesis-lugia/thumbnail.webp"
-    },
-    "featured": true
+    }
   },
   {
-    "id": "pkm-2001-neo-destiny-tyranitar",
-    "name": "Neo Destiny Booster Pack (Tyranitar)",
-    "slug": "pokemon-neo-destiny-tyranitar",
-    "type": "booster-pack",
-    "series": "Neo Series",
-    "set": "Neo Destiny",
-    "releaseYear": 2001,
-    "price": 450,
+    "id": "pokemon-en-pokemon-crown-zenith-elite-trainer-box-en",
+    "name": "Pokémon Crown Zenith Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-crown-zenith-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Crown Zenith",
+    "setCode": "swsh12pt5",
+    "releaseYear": 2023,
+    "price": 62.99,
     "currency": "€",
-    "description": "Vysokorozlíšený sken originálneho balíčka Neo Destiny s Dark Tyranitarom. Reálna predná i zadná strana.",
+    "description": "Populárny Crown Zenith ETB s Lucario VSTAR a 10 booster balíčkami.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-crown-zenith-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-crown-zenith-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-crown-zenith-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-crown-zenith-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-crown-zenith-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-crown-zenith-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-crown-zenith-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-crown-zenith-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-crown-zenith-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-crown-zenith-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:08.807Z",
+    "imageSource": "ptcg-assets (swsh12pt5) + zadná fotka",
     "dimensions": {
-      "width": 2.1,
-      "height": 3.4,
-      "depth": 0.12,
-      "bevelRadius": 0.02
+      "width": 3.1,
+      "height": 2.96,
+      "depth": 1.85,
+      "bevelRadius": 0.05
     },
     "material": {
-      "roughness": 0.2,
-      "metalness": 0.48,
-      "clearcoat": 0.9,
-      "clearcoatRoughness": 0.12
-    },
-    "textures": {
-      "front": "/textures/pokemon-neo-destiny-tyranitar/front.webp",
-      "back": "/textures/pokemon-neo-destiny-tyranitar/back.webp",
-      "side": "/textures/pokemon-neo-destiny-tyranitar/side.webp",
-      "top": "/textures/pokemon-neo-destiny-tyranitar/top.webp",
-      "thumbnail": "/textures/pokemon-neo-destiny-tyranitar/thumbnail.webp"
-    },
-    "featured": true
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
   },
   {
-    "id": "pkm-modern-151-mew",
-    "name": "Pokémon 151 Booster Pack (Mew)",
-    "slug": "pokemon-modern-151-mew",
-    "type": "booster-pack",
+    "id": "pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister",
+    "name": "Pokémon Crown Zenith Rillaboom Triple Blister",
+    "slug": "pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister",
+    "game": "pokemon",
+    "type": "blister-pack",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Crown Zenith",
+    "setCode": "swsh12pt5",
+    "releaseYear": 2023,
+    "price": 18.99,
+    "currency": "€",
+    "description": "Trojité blister balenie Crown Zenith s odznakom Rillaboom.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister/front.webp",
+      "back": "/textures/pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister/back.webp",
+      "side": "/textures/pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister/side.webp",
+      "top": "/textures/pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister/gallery-2.webp",
+        "label": "triple blister swshp SWSH278",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister/gallery-3.webp",
+        "label": "triple blister swshp SWSH279",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-crown-zenith-rillaboom-triple-blister/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:16.741Z",
+    "imageSource": "ptcg-assets (swsh12pt5) + zadná fotka",
+    "dimensions": {
+      "width": 2.7,
+      "height": 2.47,
+      "depth": 0.34,
+      "bevelRadius": 0.03
+    },
+    "material": {
+      "roughness": 0.28,
+      "metalness": 0.12,
+      "clearcoat": 0.65,
+      "clearcoatRoughness": 0.2
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-silver-tempest-elite-trainer-box-en",
+    "name": "Pokémon Silver Tempest Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-silver-tempest-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Silver Tempest",
+    "setCode": "swsh12",
+    "releaseYear": 2022,
+    "price": 54.99,
+    "currency": "€",
+    "description": "Sword & Shield Silver Tempest ETB s Vulpix a Lugia tematikou.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-silver-tempest-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-silver-tempest-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-silver-tempest-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-silver-tempest-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-silver-tempest-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-silver-tempest-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-silver-tempest-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-silver-tempest-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-silver-tempest-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-silver-tempest-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:15.004Z",
+    "imageSource": "ptcg-assets (swsh12) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-silver-tempest-booster-display-box-en",
+    "name": "Pokémon Silver Tempest Booster Display Box EN",
+    "slug": "pokemon-en-pokemon-silver-tempest-booster-display-box-en",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Silver Tempest",
+    "setCode": "swsh12",
+    "releaseYear": 2022,
+    "price": 169,
+    "currency": "€",
+    "description": "Display box Silver Tempest obsahujúci 36 booster balíčkov.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-silver-tempest-booster-display-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-silver-tempest-booster-display-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-silver-tempest-booster-display-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-silver-tempest-booster-display-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-silver-tempest-booster-display-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-silver-tempest-booster-display-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-silver-tempest-booster-display-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-silver-tempest-booster-display-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-silver-tempest-booster-display-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-silver-tempest-booster-display-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:14.309Z",
+    "imageSource": "ptcg-assets (swsh12) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-lost-origin-elite-trainer-box-en",
+    "name": "Pokémon Lost Origin Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-lost-origin-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Lost Origin",
+    "setCode": "swsh11",
+    "releaseYear": 2022,
+    "price": 59.99,
+    "currency": "€",
+    "description": "Elite Trainer Box edície Lost Origin s temným Giratina dizajnom.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-lost-origin-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-lost-origin-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-lost-origin-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-lost-origin-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-lost-origin-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-lost-origin-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-lost-origin-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-lost-origin-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-lost-origin-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-lost-origin-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:15.630Z",
+    "imageSource": "ptcg-assets (swsh11) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-lost-origin-booster-display-box-en",
+    "name": "Pokémon Lost Origin Booster Display Box EN",
+    "slug": "pokemon-en-pokemon-lost-origin-booster-display-box-en",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Lost Origin",
+    "setCode": "swsh11",
+    "releaseYear": 2022,
+    "price": 219,
+    "currency": "€",
+    "description": "Display box Lost Origin s 36 balíčkami.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-lost-origin-booster-display-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-lost-origin-booster-display-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-lost-origin-booster-display-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-lost-origin-booster-display-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-lost-origin-booster-display-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-lost-origin-booster-display-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-lost-origin-booster-display-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-lost-origin-booster-display-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-lost-origin-booster-display-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:19.126Z",
+    "imageSource": "ptcg-assets (swsh11) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en",
+    "name": "Pokémon Brilliant Stars Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Brilliant Stars",
+    "setCode": "swsh9",
+    "releaseYear": 2022,
+    "price": 59.99,
+    "currency": "€",
+    "description": "Elite Trainer Box Brilliant Stars s Arceus VSTAR.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-brilliant-stars-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:19.124Z",
+    "imageSource": "ptcg-assets (swsh9) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-fusion-strike-elite-trainer-box-en",
+    "name": "Pokémon Fusion Strike Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-fusion-strike-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Fusion Strike",
+    "setCode": "swsh8",
+    "releaseYear": 2021,
+    "price": 79.99,
+    "currency": "€",
+    "description": "Elite Trainer Box Fusion Strike s Mewom VMAX.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-fusion-strike-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-fusion-strike-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-fusion-strike-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-fusion-strike-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-fusion-strike-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-fusion-strike-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-fusion-strike-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-fusion-strike-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-fusion-strike-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-fusion-strike-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:20.842Z",
+    "imageSource": "ptcg-assets (swsh8) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.96,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-shining-fates-elite-trainer-box-en",
+    "name": "Pokémon Shining Fates Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-shining-fates-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Shining Fates",
+    "setCode": "swsh45",
+    "releaseYear": 2021,
+    "price": 69.99,
+    "currency": "€",
+    "description": "Špeciálny Shining Fates ETB s Gigantamax Eevee VMAX.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-shining-fates-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-shining-fates-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-shining-fates-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-shining-fates-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-shining-fates-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-shining-fates-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shining-fates-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shining-fates-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shining-fates-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shining-fates-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:20.316Z",
+    "imageSource": "ptcg-assets (swsh45) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.96,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box",
+    "name": "Pokémon Celebrations 25th Anniversary Elite Trainer Box",
+    "slug": "pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Sword & Shield",
+    "set": "Celebrations",
+    "setCode": "cel25",
+    "releaseYear": 2021,
+    "price": 119,
+    "currency": "€",
+    "description": "Výročná zberateľská edícia Celebrations ETB s Greninja Gold Star promo kartou.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box/front.webp",
+      "back": "/textures/pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box/back.webp",
+      "side": "/textures/pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box/side.webp",
+      "top": "/textures/pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-celebrations-25th-anniversary-elite-trainer-box/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:22.423Z",
+    "imageSource": "ptcg-assets (cel25) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 3.4,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon",
+    "name": "Pokémon Scarlet & Violet Base Elite Trainer Box (Koraidon)",
+    "slug": "pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Scarlet & Violet Base",
+    "setCode": "sv1",
+    "releaseYear": 2023,
+    "price": 49.99,
+    "currency": "€",
+    "description": "Základná sada Scarlet & Violet ETB vo variante Koraidon.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon/front.webp",
+      "back": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon/back.webp",
+      "side": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon/side.webp",
+      "top": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon/gallery-2.webp",
+        "label": "elite trainer box svp 14",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-koraidon/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:23.892Z",
+    "imageSource": "ptcg-assets (sv1) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.94,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon",
+    "name": "Pokémon Scarlet & Violet Base Elite Trainer Box (Miraidon)",
+    "slug": "pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Scarlet & Violet Base",
+    "setCode": "sv1",
+    "releaseYear": 2023,
+    "price": 49.99,
+    "currency": "€",
+    "description": "Základná sada Scarlet & Violet ETB vo variante Miraidon.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon/front.webp",
+      "back": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon/back.webp",
+      "side": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon/side.webp",
+      "top": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon/gallery-2.webp",
+        "label": "elite trainer box svp 13",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-scarlet-and-violet-base-elite-trainer-box-miraidon/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:23.306Z",
+    "imageSource": "ptcg-assets (sv1) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.94,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-ex-battle-deck-lucario",
+    "name": "Pokémon ex Battle Deck Lucario",
+    "slug": "pokemon-en-pokemon-ex-battle-deck-lucario",
+    "game": "pokemon",
+    "type": "starter-deck",
+    "language": "en",
+    "series": "Pokémon TCG",
+    "set": "Pokémon ex Battle Deck Lucario",
+    "price": 14.99,
+    "currency": "€",
+    "description": "Pripravený 60-kartový herný balíček Pokémon TCG s kartou Lucario ex.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-ex-battle-deck-lucario/front.webp",
+      "back": "/textures/pokemon-en-pokemon-ex-battle-deck-lucario/back.webp",
+      "side": "/textures/pokemon-en-pokemon-ex-battle-deck-lucario/side.webp",
+      "top": "/textures/pokemon-en-pokemon-ex-battle-deck-lucario/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-ex-battle-deck-lucario/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-ex-battle-deck-lucario/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-ex-battle-deck-lucario/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-ex-battle-deck-lucario/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-ex-battle-deck-lucario/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:25.059Z",
+    "imageSource": "Web Image Search + zadná fotka",
+    "dimensions": {
+      "width": 2.2,
+      "height": 2.09,
+      "depth": 0.85,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.34,
+      "metalness": 0.12,
+      "clearcoat": 0.5,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en",
+    "name": "Pokémon Paldea Evolved Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Paldea Evolved",
+    "setCode": "sv2",
+    "releaseYear": 2023,
+    "price": 54.99,
+    "currency": "€",
+    "description": "Elite Trainer Box edície Paldea Evolved so štartérmi regiónu Paldea.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldea-evolved-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:27.563Z",
+    "imageSource": "ptcg-assets (sv2) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-paldea-evolved-booster-display-box-en",
+    "name": "Pokémon Paldea Evolved Booster Display Box EN",
+    "slug": "pokemon-en-pokemon-paldea-evolved-booster-display-box-en",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Paldea Evolved",
+    "setCode": "sv2",
+    "releaseYear": 2023,
+    "price": 159,
+    "currency": "€",
+    "description": "Booster Box Paldea Evolved obsahujúci 36 balíčkov.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-paldea-evolved-booster-display-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-paldea-evolved-booster-display-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-paldea-evolved-booster-display-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-paldea-evolved-booster-display-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-paldea-evolved-booster-display-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-paldea-evolved-booster-display-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldea-evolved-booster-display-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldea-evolved-booster-display-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldea-evolved-booster-display-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldea-evolved-booster-display-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:27.340Z",
+    "imageSource": "ptcg-assets (sv2) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander",
+    "name": "Pokémon Obsidian Flames Elite Trainer Box (Charmander)",
+    "slug": "pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Obsidian Flames",
+    "setCode": "sv3",
+    "releaseYear": 2023,
+    "price": 58.99,
+    "currency": "€",
+    "description": "Obsidian Flames ETB s obľúbenou Full Art promo kartou Charmandera.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander/front.webp",
+      "back": "/textures/pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander/back.webp",
+      "side": "/textures/pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander/side.webp",
+      "top": "/textures/pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-obsidian-flames-elite-trainer-box-charmander/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:27.452Z",
+    "imageSource": "ptcg-assets (sv3) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.96,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-de-pokemon-obsidian-flames-booster-box-de",
+    "name": "Pokémon Obsidian Flames Booster Box DE",
+    "slug": "pokemon-de-pokemon-obsidian-flames-booster-box-de",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "de",
+    "series": "Scarlet & Violet",
+    "set": "Obsidian Flames",
+    "setCode": "sv3",
+    "releaseYear": 2023,
+    "price": 134.99,
+    "currency": "€",
+    "description": "Nemecká verzia (DE) displej boxu Obsidian Flames s 36 balíčkami.",
+    "textures": {
+      "front": "/textures/pokemon-de-pokemon-obsidian-flames-booster-box-de/front.webp",
+      "back": "/textures/pokemon-de-pokemon-obsidian-flames-booster-box-de/back.webp",
+      "side": "/textures/pokemon-de-pokemon-obsidian-flames-booster-box-de/side.webp",
+      "top": "/textures/pokemon-de-pokemon-obsidian-flames-booster-box-de/top.webp",
+      "thumbnail": "/textures/pokemon-de-pokemon-obsidian-flames-booster-box-de/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-de-pokemon-obsidian-flames-booster-box-de/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-obsidian-flames-booster-box-de/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-obsidian-flames-booster-box-de/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-obsidian-flames-booster-box-de/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-obsidian-flames-booster-box-de/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:28.705Z",
+    "imageSource": "ptcg-assets (de_sv3) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-151-elite-trainer-box-en",
+    "name": "Pokémon 151 Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-151-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
     "series": "Scarlet & Violet",
     "set": "Pokémon 151",
+    "setCode": "sv3pt5",
+    "releaseYear": 2023,
+    "price": 79.99,
+    "currency": "€",
+    "description": "Anglická edícia Elite Trainer Boxu Pokémon 151 so Snorlax promo kartou.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-151-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-151-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-151-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-151-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-151-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-151-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:32:34.503Z",
+    "imageSource": "Web Image Search + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.66,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de",
+    "name": "Pokémon Karmesin & Purpur 151 Top-Trainer-Box DE",
+    "slug": "pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "de",
+    "series": "Scarlet & Violet",
+    "set": "Pokémon 151",
+    "setCode": "sv3pt5",
+    "releaseYear": 2023,
+    "price": 69.99,
+    "currency": "€",
+    "description": "Nemecká verzia (DE) Elite Trainer Boxu Pokémon 151.",
+    "textures": {
+      "front": "/textures/pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de/front.webp",
+      "back": "/textures/pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de/back.webp",
+      "side": "/textures/pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de/side.webp",
+      "top": "/textures/pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de/top.webp",
+      "thumbnail": "/textures/pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-karmesin-and-purpur-151-top-trainer-box-de/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:30.898Z",
+    "imageSource": "ptcg-assets (de_sv3pt5) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-151-booster-bundle-en",
+    "name": "Pokémon 151 Booster Bundle EN",
+    "slug": "pokemon-en-pokemon-151-booster-bundle-en",
+    "game": "pokemon",
+    "type": "booster-bundle",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Pokémon 151",
+    "setCode": "sv3pt5",
+    "releaseYear": 2023,
+    "price": 39.99,
+    "currency": "€",
+    "description": "6 booster balíčkov Pokémon Scarlet & Violet 151 v kompaktnom boxe.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-151-booster-bundle-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-151-booster-bundle-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-151-booster-bundle-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-151-booster-bundle-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-151-booster-bundle-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-151-booster-bundle-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-booster-bundle-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-booster-bundle-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-booster-bundle-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:33.128Z",
+    "imageSource": "ptcg-assets (sv3pt5) + zadná fotka",
+    "dimensions": {
+      "width": 2.4,
+      "height": 3.23,
+      "depth": 1.55,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.38,
+      "metalness": 0.1,
+      "clearcoat": 0.45,
+      "clearcoatRoughness": 0.24
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-151-ultra-premium-collection-en",
+    "name": "Pokémon 151 Ultra-Premium Collection EN",
+    "slug": "pokemon-en-pokemon-151-ultra-premium-collection-en",
+    "game": "pokemon",
+    "type": "collection-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Pokémon 151",
+    "setCode": "sv3pt5",
+    "releaseYear": 2023,
+    "price": 169,
+    "currency": "€",
+    "description": "Luxusný Ultra-Premium Collection Box Pokémon 151 s kovovým Mewom ex a hernou podložkou.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-151-ultra-premium-collection-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-151-ultra-premium-collection-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-151-ultra-premium-collection-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-151-ultra-premium-collection-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-151-ultra-premium-collection-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-151-ultra-premium-collection-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-ultra-premium-collection-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-ultra-premium-collection-en/gallery-2.webp",
+        "label": "blooming waters premium collection",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-ultra-premium-collection-en/gallery-3.webp",
+        "label": "alakazam ex collection",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-ultra-premium-collection-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:32:33.830Z",
+    "imageSource": "ptcg-assets (sv3pt5) + zadná fotka",
+    "dimensions": {
+      "width": 4.3,
+      "height": 3.03,
+      "depth": 0.95,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.34,
+      "metalness": 0.16,
+      "clearcoat": 0.5,
+      "clearcoatRoughness": 0.2
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-151-blooming-waters-premium-collection",
+    "name": "Pokémon 151 Blooming Waters Premium Collection",
+    "slug": "pokemon-en-pokemon-151-blooming-waters-premium-collection",
+    "game": "pokemon",
+    "type": "collection-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Pokémon 151",
+    "setCode": "sv3pt5",
+    "releaseYear": 2023,
+    "price": 79.99,
+    "currency": "€",
+    "description": "Prémiový box 151 s 12 boostermi a kartami Venusaur ex & Blastoise ex.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-151-blooming-waters-premium-collection/front.webp",
+      "back": "/textures/pokemon-en-pokemon-151-blooming-waters-premium-collection/back.webp",
+      "side": "/textures/pokemon-en-pokemon-151-blooming-waters-premium-collection/side.webp",
+      "top": "/textures/pokemon-en-pokemon-151-blooming-waters-premium-collection/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-151-blooming-waters-premium-collection/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-151-blooming-waters-premium-collection/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-blooming-waters-premium-collection/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-blooming-waters-premium-collection/gallery-2.webp",
+        "label": "ultra premium collection",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-blooming-waters-premium-collection/gallery-3.webp",
+        "label": "alakazam ex collection",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-blooming-waters-premium-collection/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:35.898Z",
+    "imageSource": "ptcg-assets (sv3pt5) + zadná fotka",
+    "dimensions": {
+      "width": 4.3,
+      "height": 2.78,
+      "depth": 0.95,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.34,
+      "metalness": 0.16,
+      "clearcoat": 0.5,
+      "clearcoatRoughness": 0.2
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-151-mini-tin-gengar-en",
+    "name": "Pokémon 151 Mini Tin Gengar EN",
+    "slug": "pokemon-en-pokemon-151-mini-tin-gengar-en",
+    "game": "pokemon",
+    "type": "mini-tin",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Pokémon 151",
+    "setCode": "sv3pt5",
+    "releaseYear": 2023,
+    "price": 12.99,
+    "currency": "€",
+    "description": "Kovová Mini Tin plechovka s Gengar artworkom a 2 balíčkami 151.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-151-mini-tin-gengar-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-151-mini-tin-gengar-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-151-mini-tin-gengar-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-151-mini-tin-gengar-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-151-mini-tin-gengar-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-151-mini-tin-gengar-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-mini-tin-gengar-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-mini-tin-gengar-en/gallery-2.webp",
+        "label": "alakazam",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-mini-tin-gengar-en/gallery-3.webp",
+        "label": "arcanine",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-mini-tin-gengar-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:42.425Z",
+    "imageSource": "ptcg-assets (sv3pt5) + zadná fotka",
+    "dimensions": {
+      "width": 1.95,
+      "height": 3.04,
+      "depth": 0.65,
+      "bevelRadius": 0.12
+    },
+    "material": {
+      "roughness": 0.18,
+      "metalness": 0.85,
+      "clearcoat": 0.92,
+      "clearcoatRoughness": 0.1
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-151-booster-pack-mew",
+    "name": "Pokémon 151 Booster Pack (Mew)",
+    "slug": "pokemon-en-pokemon-151-booster-pack-mew",
+    "game": "pokemon",
+    "type": "booster-pack",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Pokémon 151",
+    "setCode": "sv3pt5",
     "releaseYear": 2023,
     "price": 6.99,
     "currency": "€",
-    "description": "Oficiálny moderný booster pack Pokémon 151. Reálny scan prednej fólie v kombinácii s autentickým zadným scanom.",
+    "description": "Moderný booster balíček Scarlet & Violet 151 s Mew artworkom.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-151-booster-pack-mew/front.webp",
+      "back": "/textures/pokemon-en-pokemon-151-booster-pack-mew/back.webp",
+      "side": "/textures/pokemon-en-pokemon-151-booster-pack-mew/side.webp",
+      "top": "/textures/pokemon-en-pokemon-151-booster-pack-mew/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-151-booster-pack-mew/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-151-booster-pack-mew/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-booster-pack-mew/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-booster-pack-mew/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-151-booster-pack-mew/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:39.931Z",
+    "imageSource": "ptcg-assets (sv3pt5) + zadná fotka",
     "dimensions": {
-      "width": 2.1,
+      "width": 2,
       "height": 3.4,
-      "depth": 0.12,
+      "depth": 0.14,
       "bevelRadius": 0.02
     },
     "material": {
-      "roughness": 0.18,
-      "metalness": 0.5,
-      "clearcoat": 1,
-      "clearcoatRoughness": 0.1
-    },
-    "textures": {
-      "front": "/textures/pokemon-modern-151-mew/front.webp",
-      "back": "/textures/pokemon-modern-151-mew/back.webp",
-      "side": "/textures/pokemon-modern-151-mew/side.webp",
-      "top": "/textures/pokemon-modern-151-mew/top.webp",
-      "thumbnail": "/textures/pokemon-modern-151-mew/thumbnail.webp"
-    },
-    "featured": true
+      "roughness": 0.2,
+      "metalness": 0.42,
+      "clearcoat": 0.9,
+      "clearcoatRoughness": 0.12
+    }
   },
   {
-    "id": "pkm-modern-obsidian-charizard",
-    "name": "Obsidian Flames Booster (Tera Charizard ex)",
-    "slug": "pokemon-modern-obsidian-charizard",
-    "type": "booster-pack",
+    "id": "pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon",
+    "name": "Pokémon Paradox Rift Elite Trainer Box (Roaring Moon)",
+    "slug": "pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
     "series": "Scarlet & Violet",
-    "set": "Obsidian Flames",
+    "set": "Paradox Rift",
+    "setCode": "sv4",
     "releaseYear": 2023,
-    "price": 5.49,
+    "price": 49.99,
     "currency": "€",
-    "description": "Oficiálny booster balíček Obsidian Flames s temným Tera Charizardom ex. Reálne fotografie produktu.",
+    "description": "Paradox Rift ETB v červenej edícii Roaring Moon.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon/front.webp",
+      "back": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon/back.webp",
+      "side": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon/side.webp",
+      "top": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon/gallery-2.webp",
+        "label": "elite trainer box2",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-roaring-moon/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:39.381Z",
+    "imageSource": "ptcg-assets (sv4) + zadná fotka",
     "dimensions": {
-      "width": 2.1,
-      "height": 3.4,
-      "depth": 0.12,
-      "bevelRadius": 0.02
+      "width": 3.1,
+      "height": 2.94,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant",
+    "name": "Pokémon Paradox Rift Elite Trainer Box (Iron Valiant)",
+    "slug": "pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Paradox Rift",
+    "setCode": "sv4",
+    "releaseYear": 2023,
+    "price": 49.99,
+    "currency": "€",
+    "description": "Paradox Rift ETB v modro-fialovej edícii Iron Valiant.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant/front.webp",
+      "back": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant/back.webp",
+      "side": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant/side.webp",
+      "top": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant/gallery-2.webp",
+        "label": "elite trainer box",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paradox-rift-elite-trainer-box-iron-valiant/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:40.378Z",
+    "imageSource": "ptcg-assets (sv4) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.94,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu",
+    "name": "Pokémon Paldean Fates Elite Trainer Box (Mimikyu)",
+    "slug": "pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Paldean Fates",
+    "setCode": "sv4pt5",
+    "releaseYear": 2024,
+    "price": 59.99,
+    "currency": "€",
+    "description": "Shiny edícia Paldean Fates ETB s promo kartou Mimikyu.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu/front.webp",
+      "back": "/textures/pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu/back.webp",
+      "side": "/textures/pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu/side.webp",
+      "top": "/textures/pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-elite-trainer-box-mimikyu/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:44.921Z",
+    "imageSource": "ptcg-assets (sv4pt5) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en",
+    "name": "Pokémon Paldean Fates Charizard ex Tin EN",
+    "slug": "pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en",
+    "game": "pokemon",
+    "type": "tin",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Paldean Fates",
+    "setCode": "sv4pt5",
+    "releaseYear": 2024,
+    "price": 29.99,
+    "currency": "€",
+    "description": "Zberateľská plechovka Paldean Fates s lesklým Tera Charizardom ex.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-charizard-ex-tin-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:32:43.730Z",
+    "imageSource": "Web Image Search + zadná fotka",
+    "dimensions": {
+      "width": 2.8,
+      "height": 3.72,
+      "depth": 1.65,
+      "bevelRadius": 0.16
     },
     "material": {
       "roughness": 0.18,
-      "metalness": 0.5,
-      "clearcoat": 1,
+      "metalness": 0.82,
+      "clearcoat": 0.92,
       "clearcoatRoughness": 0.1
-    },
-    "textures": {
-      "front": "/textures/pokemon-modern-obsidian-charizard/front.webp",
-      "back": "/textures/pokemon-modern-obsidian-charizard/back.webp",
-      "side": "/textures/pokemon-modern-obsidian-charizard/side.webp",
-      "top": "/textures/pokemon-modern-obsidian-charizard/top.webp",
-      "thumbnail": "/textures/pokemon-modern-obsidian-charizard/thumbnail.webp"
-    },
-    "featured": true
+    }
   },
   {
-    "id": "pkm-modern-surging-sparks-pikachu",
-    "name": "Surging Sparks Booster (Stellar Pikachu)",
-    "slug": "pokemon-modern-surging-sparks-pikachu",
-    "type": "booster-pack",
+    "id": "pokemon-en-pokemon-paldean-fates-booster-bundle-en",
+    "name": "Pokémon Paldean Fates Booster Bundle EN",
+    "slug": "pokemon-en-pokemon-paldean-fates-booster-bundle-en",
+    "game": "pokemon",
+    "type": "booster-bundle",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Paldean Fates",
+    "setCode": "sv4pt5",
+    "releaseYear": 2024,
+    "price": 34.99,
+    "currency": "€",
+    "description": "6-pack Booster Bundle edície Paldean Fates.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-paldean-fates-booster-bundle-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-paldean-fates-booster-bundle-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-paldean-fates-booster-bundle-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-paldean-fates-booster-bundle-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-paldean-fates-booster-bundle-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-booster-bundle-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-booster-bundle-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-booster-bundle-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-booster-bundle-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-paldean-fates-booster-bundle-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:45.124Z",
+    "imageSource": "ptcg-assets (sv4pt5) + zadná fotka",
+    "dimensions": {
+      "width": 2.4,
+      "height": 3.23,
+      "depth": 1.55,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.38,
+      "metalness": 0.1,
+      "clearcoat": 0.45,
+      "clearcoatRoughness": 0.24
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake",
+    "name": "Pokémon Temporal Forces Elite Trainer Box (Walking Wake)",
+    "slug": "pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Temporal Forces",
+    "setCode": "sv5",
+    "releaseYear": 2024,
+    "price": 49.99,
+    "currency": "€",
+    "description": "Temporal Forces ETB vo variante Walking Wake.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake/front.webp",
+      "back": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake/back.webp",
+      "side": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake/side.webp",
+      "top": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake/gallery-2.webp",
+        "label": "elite trainer box svp 98",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-walking-wake/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:47.730Z",
+    "imageSource": "ptcg-assets (sv5) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.94,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves",
+    "name": "Pokémon Temporal Forces Elite Trainer Box (Iron Leaves)",
+    "slug": "pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Temporal Forces",
+    "setCode": "sv5",
+    "releaseYear": 2024,
+    "price": 49.99,
+    "currency": "€",
+    "description": "Temporal Forces ETB vo variante Iron Leaves.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves/front.webp",
+      "back": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves/back.webp",
+      "side": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves/side.webp",
+      "top": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves/gallery-2.webp",
+        "label": "elite trainer box svp 97",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-temporal-forces-elite-trainer-box-iron-leaves/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:48.400Z",
+    "imageSource": "ptcg-assets (sv5) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.94,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en",
+    "name": "Pokémon Twilight Masquerade Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Twilight Masquerade",
+    "setCode": "sv6",
+    "releaseYear": 2024,
+    "price": 52.99,
+    "currency": "€",
+    "description": "Twilight Masquerade ETB s legendárnym Teal Mask Ogerponom.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-twilight-masquerade-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:52.714Z",
+    "imageSource": "ptcg-assets (sv6) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-twilight-masquerade-booster-display-box-en",
+    "name": "Pokémon Twilight Masquerade Booster Display Box EN",
+    "slug": "pokemon-en-pokemon-twilight-masquerade-booster-display-box-en",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Twilight Masquerade",
+    "setCode": "sv6",
+    "releaseYear": 2024,
+    "price": 154.99,
+    "currency": "€",
+    "description": "Display box Twilight Masquerade (36 booster balíčkov).",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-twilight-masquerade-booster-display-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-twilight-masquerade-booster-display-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-twilight-masquerade-booster-display-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-twilight-masquerade-booster-display-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-twilight-masquerade-booster-display-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-twilight-masquerade-booster-display-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-twilight-masquerade-booster-display-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-twilight-masquerade-booster-display-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-twilight-masquerade-booster-display-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-twilight-masquerade-booster-display-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:50.072Z",
+    "imageSource": "ptcg-assets (sv6) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en",
+    "name": "Pokémon Shrouded Fable Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Shrouded Fable",
+    "setCode": "sv6pt5",
+    "releaseYear": 2024,
+    "price": 47.99,
+    "currency": "€",
+    "description": "Špeciálny set Shrouded Fable Elite Trainer Box s Pecharunt promo kartou.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shrouded-fable-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:55.338Z",
+    "imageSource": "ptcg-assets (sv6pt5) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box",
+    "name": "Pokémon Shrouded Fable Kingdra ex Collection Box",
+    "slug": "pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box",
+    "game": "pokemon",
+    "type": "collection-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Shrouded Fable",
+    "setCode": "sv6pt5",
+    "releaseYear": 2024,
+    "price": 36.99,
+    "currency": "€",
+    "description": "Special Illustration Collection box s promo kartou Kingdra ex.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box/front.webp",
+      "back": "/textures/pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box/back.webp",
+      "side": "/textures/pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box/side.webp",
+      "top": "/textures/pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box/gallery-2.webp",
+        "label": "greninja collection",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box/gallery-3.webp",
+        "label": "kingambit collection",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-shrouded-fable-kingdra-ex-collection-box/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:58.903Z",
+    "imageSource": "ptcg-assets (sv6pt5) + zadná fotka",
+    "dimensions": {
+      "width": 4.3,
+      "height": 3.76,
+      "depth": 0.95,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.34,
+      "metalness": 0.16,
+      "clearcoat": 0.5,
+      "clearcoatRoughness": 0.2
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-stellar-crown-elite-trainer-box-en",
+    "name": "Pokémon Stellar Crown Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-stellar-crown-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Stellar Crown",
+    "setCode": "sv7",
+    "releaseYear": 2024,
+    "price": 49.99,
+    "currency": "€",
+    "description": "Stellar Crown ETB s kryštálovým Terapagosom.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-stellar-crown-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-stellar-crown-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-stellar-crown-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-stellar-crown-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-stellar-crown-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-stellar-crown-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-stellar-crown-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-stellar-crown-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:32:55.112Z",
+    "imageSource": "ptcg-assets (sv7) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-stellar-crown-booster-display-box-en",
+    "name": "Pokémon Stellar Crown Booster Display Box EN",
+    "slug": "pokemon-en-pokemon-stellar-crown-booster-display-box-en",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Stellar Crown",
+    "setCode": "sv7",
+    "releaseYear": 2024,
+    "price": 149.99,
+    "currency": "€",
+    "description": "Booster Display Box Stellar Crown (36 balíčkov).",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-stellar-crown-booster-display-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-stellar-crown-booster-display-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-stellar-crown-booster-display-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-stellar-crown-booster-display-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-stellar-crown-booster-display-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-stellar-crown-booster-display-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-stellar-crown-booster-display-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-stellar-crown-booster-display-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-stellar-crown-booster-display-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-stellar-crown-booster-display-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:00.520Z",
+    "imageSource": "ptcg-assets (sv7) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-surging-sparks-elite-trainer-box-en",
+    "name": "Pokémon Surging Sparks Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-surging-sparks-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
     "series": "Scarlet & Violet",
     "set": "Surging Sparks",
+    "setCode": "sv8",
     "releaseYear": 2024,
-    "price": 5.99,
+    "price": 56.99,
     "currency": "€",
-    "description": "Najnovší expanzný booster pack Surging Sparks so Stellar Pikachu. Reálne fotografie produktu.",
+    "description": "Surging Sparks ETB s Magneton promo kartou, kockami a obalmi.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-surging-sparks-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-surging-sparks-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-surging-sparks-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-surging-sparks-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-surging-sparks-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:33:02.130Z",
+    "imageSource": "ptcg-assets (sv8) + zadná fotka",
     "dimensions": {
-      "width": 2.1,
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov",
+    "name": "Pokémon Surging Sparks Booster Display Box (36 packov)",
+    "slug": "pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Surging Sparks",
+    "setCode": "sv8",
+    "releaseYear": 2024,
+    "price": 149.99,
+    "currency": "€",
+    "description": "Zapečatený displej box s 36 balíčkami Surging Sparks.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov/front.webp",
+      "back": "/textures/pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov/back.webp",
+      "side": "/textures/pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov/side.webp",
+      "top": "/textures/pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-display-box-36-packov/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:33:01.677Z",
+    "imageSource": "ptcg-assets (sv8) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-surging-sparks-booster-bundle-en",
+    "name": "Pokémon Surging Sparks Booster Bundle EN",
+    "slug": "pokemon-en-pokemon-surging-sparks-booster-bundle-en",
+    "game": "pokemon",
+    "type": "booster-bundle",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Surging Sparks",
+    "setCode": "sv8",
+    "releaseYear": 2024,
+    "price": 32.99,
+    "currency": "€",
+    "description": "6-pack Booster Bundle edície Surging Sparks.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-surging-sparks-booster-bundle-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-surging-sparks-booster-bundle-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-surging-sparks-booster-bundle-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-surging-sparks-booster-bundle-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-surging-sparks-booster-bundle-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-bundle-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-bundle-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-bundle-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-bundle-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-bundle-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:04.931Z",
+    "imageSource": "ptcg-assets (sv8) + zadná fotka",
+    "dimensions": {
+      "width": 2.4,
+      "height": 3.23,
+      "depth": 1.55,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.38,
+      "metalness": 0.1,
+      "clearcoat": 0.45,
+      "clearcoatRoughness": 0.24
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-surging-sparks-build-and-battle-box-en",
+    "name": "Pokémon Surging Sparks Build & Battle Box EN",
+    "slug": "pokemon-en-pokemon-surging-sparks-build-and-battle-box-en",
+    "game": "pokemon",
+    "type": "build-and-battle",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Surging Sparks",
+    "setCode": "sv8",
+    "releaseYear": 2024,
+    "price": 24.99,
+    "currency": "€",
+    "description": "Turnajový Build & Battle kit so 40-kartovým balíčkom a 4 boostermi.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-surging-sparks-build-and-battle-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-surging-sparks-build-and-battle-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-surging-sparks-build-and-battle-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-surging-sparks-build-and-battle-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-surging-sparks-build-and-battle-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-build-and-battle-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-build-and-battle-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-build-and-battle-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-build-and-battle-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-build-and-battle-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:06.285Z",
+    "imageSource": "Web Image Search + zadná fotka",
+    "dimensions": {
+      "width": 2.5,
+      "height": 3.35,
+      "depth": 1.15,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.1,
+      "clearcoat": 0.45,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-surging-sparks-booster-pack-pikachu",
+    "name": "Pokémon Surging Sparks Booster Pack (Pikachu)",
+    "slug": "pokemon-en-pokemon-surging-sparks-booster-pack-pikachu",
+    "game": "pokemon",
+    "type": "booster-pack",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Surging Sparks",
+    "setCode": "sv8",
+    "releaseYear": 2024,
+    "price": 5.49,
+    "currency": "€",
+    "description": "Booster pack Surging Sparks so Stellar Pikachu.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-surging-sparks-booster-pack-pikachu/front.webp",
+      "back": "/textures/pokemon-en-pokemon-surging-sparks-booster-pack-pikachu/back.webp",
+      "side": "/textures/pokemon-en-pokemon-surging-sparks-booster-pack-pikachu/side.webp",
+      "top": "/textures/pokemon-en-pokemon-surging-sparks-booster-pack-pikachu/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-surging-sparks-booster-pack-pikachu/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-pack-pikachu/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-pack-pikachu/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-pack-pikachu/gallery-2.webp",
+        "label": "Pokemon TCG Scarlet Violet—Surging Sparks Booster Wrap Alolan Exeggutor",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-surging-sparks-booster-pack-pikachu/gallery-3.webp",
+        "label": "Pokemon TCG Scarlet Violet—Surging Sparks Booster Wrap Archaludon",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:07.893Z",
+    "imageSource": "ptcg-assets (sv8) + zadná fotka",
+    "dimensions": {
+      "width": 2,
       "height": 3.4,
-      "depth": 0.12,
+      "depth": 0.14,
       "bevelRadius": 0.02
     },
     "material": {
-      "roughness": 0.15,
-      "metalness": 0.52,
-      "clearcoat": 1,
-      "clearcoatRoughness": 0.08
-    },
+      "roughness": 0.2,
+      "metalness": 0.42,
+      "clearcoat": 0.9,
+      "clearcoatRoughness": 0.12
+    }
+  },
+  {
+    "id": "pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de",
+    "name": "Pokémon Stürmische Funken Booster Pack Pikachu DE",
+    "slug": "pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de",
+    "game": "pokemon",
+    "type": "booster-pack",
+    "language": "de",
+    "series": "Scarlet & Violet",
+    "set": "Surging Sparks",
+    "setCode": "sv8",
+    "releaseYear": 2024,
+    "price": 4.99,
+    "currency": "€",
+    "description": "Nemecká verzia (DE) balíčka Surging Sparks.",
     "textures": {
-      "front": "/textures/pokemon-modern-surging-sparks-pikachu/front.webp",
-      "back": "/textures/pokemon-modern-surging-sparks-pikachu/back.webp",
-      "side": "/textures/pokemon-modern-surging-sparks-pikachu/side.webp",
-      "top": "/textures/pokemon-modern-surging-sparks-pikachu/top.webp",
-      "thumbnail": "/textures/pokemon-modern-surging-sparks-pikachu/thumbnail.webp"
+      "front": "/textures/pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de/front.webp",
+      "back": "/textures/pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de/back.webp",
+      "side": "/textures/pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de/side.webp",
+      "top": "/textures/pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de/top.webp",
+      "thumbnail": "/textures/pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de/thumbnail.webp"
     },
-    "featured": true
+    "images": [
+      {
+        "url": "/textures/pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de/gallery-2.webp",
+        "label": "Pokemon TCG Scarlet Violet—Surging Sparks Booster Wrap AlolanExeggutorStellar DE",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de/gallery-3.webp",
+        "label": "Pokemon TCG Scarlet Violet—Surging Sparks Booster Wrap Archaludon DE",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-sturmische-funken-booster-pack-pikachu-de/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:08.008Z",
+    "imageSource": "ptcg-assets (de_sv8) + zadná fotka",
+    "dimensions": {
+      "width": 2,
+      "height": 3.4,
+      "depth": 0.14,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.2,
+      "metalness": 0.42,
+      "clearcoat": 0.9,
+      "clearcoatRoughness": 0.12
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en",
+    "name": "Pokémon Prismatic Evolutions Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Prismatic Evolutions",
+    "setCode": "sv8pt5",
+    "releaseYear": 2025,
+    "price": 69.99,
+    "currency": "€",
+    "description": "Prismatic Evolutions ETB s Eevee promo kartou.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:33:16.228Z",
+    "imageSource": "ptcg-assets (sv8pt5) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.96,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de",
+    "name": "Pokémon Prismatische Entwicklungen Top-Trainer-Box DE",
+    "slug": "pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "de",
+    "series": "Scarlet & Violet",
+    "set": "Prismatic Evolutions",
+    "setCode": "sv8pt5",
+    "releaseYear": 2025,
+    "price": 64.99,
+    "currency": "€",
+    "description": "Nemecká verzia (DE) Prismatic Evolutions Top-Trainer-Box.",
+    "textures": {
+      "front": "/textures/pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de/front.webp",
+      "back": "/textures/pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de/back.webp",
+      "side": "/textures/pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de/side.webp",
+      "top": "/textures/pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de/top.webp",
+      "thumbnail": "/textures/pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-de-pokemon-prismatische-entwicklungen-top-trainer-box-de/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:15.325Z",
+    "imageSource": "ptcg-assets (de_sv8pt5) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.97,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en",
+    "name": "Pokémon Prismatic Evolutions Booster Bundle EN",
+    "slug": "pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en",
+    "game": "pokemon",
+    "type": "booster-bundle",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Prismatic Evolutions",
+    "setCode": "sv8pt5",
+    "releaseYear": 2025,
+    "price": 34.99,
+    "currency": "€",
+    "description": "Kompaktný Booster Bundle obsahujúci 6 balíčkov Prismatic Evolutions.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-booster-bundle-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:14.717Z",
+    "imageSource": "ptcg-assets (sv8pt5) + zadná fotka",
+    "dimensions": {
+      "width": 2.4,
+      "height": 3.23,
+      "depth": 1.55,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.38,
+      "metalness": 0.1,
+      "clearcoat": 0.45,
+      "clearcoatRoughness": 0.24
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-prismatic-evolutions-mini-tin-en",
+    "name": "Pokémon Prismatic Evolutions Mini Tin EN",
+    "slug": "pokemon-en-pokemon-prismatic-evolutions-mini-tin-en",
+    "game": "pokemon",
+    "type": "mini-tin",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Prismatic Evolutions",
+    "setCode": "sv8pt5",
+    "releaseYear": 2025,
+    "price": 13.99,
+    "currency": "€",
+    "description": "Zberateľská Mini plechovka Prismatic Evolutions s Eevee evolúciami.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-prismatic-evolutions-mini-tin-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-prismatic-evolutions-mini-tin-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-prismatic-evolutions-mini-tin-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-prismatic-evolutions-mini-tin-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-prismatic-evolutions-mini-tin-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-mini-tin-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-mini-tin-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-mini-tin-en/gallery-2.webp",
+        "label": "2",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-mini-tin-en/gallery-3.webp",
+        "label": "3",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-mini-tin-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:15.419Z",
+    "imageSource": "ptcg-assets (sv8pt5) + zadná fotka",
+    "dimensions": {
+      "width": 1.95,
+      "height": 3.04,
+      "depth": 0.65,
+      "bevelRadius": 0.12
+    },
+    "material": {
+      "roughness": 0.18,
+      "metalness": 0.85,
+      "clearcoat": 0.92,
+      "clearcoatRoughness": 0.1
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en",
+    "name": "Pokémon Prismatic Evolutions 3-Pack Blister EN",
+    "slug": "pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en",
+    "game": "pokemon",
+    "type": "blister-pack",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Prismatic Evolutions",
+    "setCode": "sv8pt5",
+    "releaseYear": 2025,
+    "price": 17.99,
+    "currency": "€",
+    "description": "Trojité blister balenie s promo kartou a mincou.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en/gallery-2.webp",
+        "label": "triple blister svp 170",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en/gallery-3.webp",
+        "label": "triple blister svp 171",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-3-pack-blister-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:21.204Z",
+    "imageSource": "ptcg-assets (sv8pt5) + zadná fotka",
+    "dimensions": {
+      "width": 2.7,
+      "height": 2.48,
+      "depth": 0.34,
+      "bevelRadius": 0.03
+    },
+    "material": {
+      "roughness": 0.28,
+      "metalness": 0.12,
+      "clearcoat": 0.65,
+      "clearcoatRoughness": 0.2
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-prismatic-evolutions-binder-collection-en",
+    "name": "Pokémon Prismatic Evolutions Binder Collection EN",
+    "slug": "pokemon-en-pokemon-prismatic-evolutions-binder-collection-en",
+    "game": "pokemon",
+    "type": "collection-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Prismatic Evolutions",
+    "setCode": "sv8pt5",
+    "releaseYear": 2025,
+    "price": 39.99,
+    "currency": "€",
+    "description": "Zberateľský album + 5 balíčkov Prismatic Evolutions.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-prismatic-evolutions-binder-collection-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-prismatic-evolutions-binder-collection-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-prismatic-evolutions-binder-collection-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-prismatic-evolutions-binder-collection-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-prismatic-evolutions-binder-collection-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-binder-collection-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-binder-collection-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-binder-collection-en/gallery-2.webp",
+        "label": "accessory pouch collection",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-binder-collection-en/gallery-3.webp",
+        "label": "poster collection",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-prismatic-evolutions-binder-collection-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:34.498Z",
+    "imageSource": "ptcg-assets (sv8pt5) + zadná fotka",
+    "dimensions": {
+      "width": 4.3,
+      "height": 4.4,
+      "depth": 0.95,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.34,
+      "metalness": 0.16,
+      "clearcoat": 0.5,
+      "clearcoatRoughness": 0.2
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-journey-together-elite-trainer-box-en",
+    "name": "Pokémon Journey Together Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-journey-together-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Journey Together",
+    "setCode": "sv9",
+    "releaseYear": 2025,
+    "price": 59.99,
+    "currency": "€",
+    "description": "Trainer's Pokémon návrat – Journey Together ETB.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-journey-together-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-journey-together-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-journey-together-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-journey-together-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-journey-together-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-journey-together-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-journey-together-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-journey-together-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-journey-together-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:21.036Z",
+    "imageSource": "ptcg-assets (sv9) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-journey-together-booster-display-box-en",
+    "name": "Pokémon Journey Together Booster Display Box EN",
+    "slug": "pokemon-en-pokemon-journey-together-booster-display-box-en",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Journey Together",
+    "setCode": "sv9",
+    "releaseYear": 2025,
+    "price": 159.99,
+    "currency": "€",
+    "description": "Booster Box Journey Together (36 balíčkov).",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-journey-together-booster-display-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-journey-together-booster-display-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-journey-together-booster-display-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-journey-together-booster-display-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-journey-together-booster-display-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-journey-together-booster-display-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-journey-together-booster-display-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-journey-together-booster-display-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-journey-together-booster-display-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-journey-together-booster-display-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:21.647Z",
+    "imageSource": "ptcg-assets (sv9) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-destined-rivals-elite-trainer-box-en",
+    "name": "Pokémon Destined Rivals Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-destined-rivals-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Destined Rivals",
+    "setCode": "sv10",
+    "releaseYear": 2025,
+    "price": 62.99,
+    "currency": "€",
+    "description": "Destined Rivals ETB s Team Rocket tematikou.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-destined-rivals-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-destined-rivals-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-destined-rivals-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-destined-rivals-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-destined-rivals-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:33:28.247Z",
+    "imageSource": "ptcg-assets (sv10) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-destined-rivals-booster-display-box-en",
+    "name": "Pokémon Destined Rivals Booster Display Box EN",
+    "slug": "pokemon-en-pokemon-destined-rivals-booster-display-box-en",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Destined Rivals",
+    "setCode": "sv10",
+    "releaseYear": 2025,
+    "price": 164.99,
+    "currency": "€",
+    "description": "Booster Display Box Destined Rivals (36 balíčkov).",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-destined-rivals-booster-display-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-destined-rivals-booster-display-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-destined-rivals-booster-display-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-destined-rivals-booster-display-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-destined-rivals-booster-display-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-booster-display-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-booster-display-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-booster-display-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-booster-display-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-booster-display-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:25.799Z",
+    "imageSource": "ptcg-assets (sv10) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-destined-rivals-collector-tin",
+    "name": "Pokémon Destined Rivals Collector Tin",
+    "slug": "pokemon-en-pokemon-destined-rivals-collector-tin",
+    "game": "pokemon",
+    "type": "tin",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Destined Rivals",
+    "setCode": "sv10",
+    "releaseYear": 2025,
+    "price": 26.99,
+    "currency": "€",
+    "description": "Kovová plechovka s promo kartou Team Rocket's Mewtwo ex a boostermi.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-destined-rivals-collector-tin/front.webp",
+      "back": "/textures/pokemon-en-pokemon-destined-rivals-collector-tin/back.webp",
+      "side": "/textures/pokemon-en-pokemon-destined-rivals-collector-tin/side.webp",
+      "top": "/textures/pokemon-en-pokemon-destined-rivals-collector-tin/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-destined-rivals-collector-tin/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-collector-tin/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-collector-tin/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-collector-tin/gallery-2.webp",
+        "label": "svp 217",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-collector-tin/gallery-3.webp",
+        "label": "svp 218",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-destined-rivals-collector-tin/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:28.597Z",
+    "imageSource": "ptcg-assets (sv10) + zadná fotka",
+    "dimensions": {
+      "width": 2.8,
+      "height": 3.67,
+      "depth": 1.65,
+      "bevelRadius": 0.16
+    },
+    "material": {
+      "roughness": 0.18,
+      "metalness": 0.82,
+      "clearcoat": 0.92,
+      "clearcoatRoughness": 0.1
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-black-bolt-elite-trainer-box-en",
+    "name": "Pokémon Black Bolt Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-black-bolt-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "Black Bolt",
+    "setCode": "zsv10pt5",
+    "releaseYear": 2025,
+    "price": 59.99,
+    "currency": "€",
+    "description": "Scarlet & Violet Black Bolt ETB s legendárnym Zekromom.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-black-bolt-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-black-bolt-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-black-bolt-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-black-bolt-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-black-bolt-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-black-bolt-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-black-bolt-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-black-bolt-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-black-bolt-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:36.971Z",
+    "imageSource": "ptcg-assets (zsv10pt5) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-white-flare-elite-trainer-box-en",
+    "name": "Pokémon White Flare Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-white-flare-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Scarlet & Violet",
+    "set": "White Flare",
+    "setCode": "rsv10pt5",
+    "releaseYear": 2025,
+    "price": 59.99,
+    "currency": "€",
+    "description": "Scarlet & Violet White Flare ETB s legendárnym Reshiramom.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-white-flare-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-white-flare-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-white-flare-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-white-flare-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-white-flare-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-white-flare-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-white-flare-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-white-flare-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-white-flare-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-white-flare-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:47.069Z",
+    "imageSource": "ptcg-assets (rsv10pt5) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir",
+    "name": "Pokémon Mega Evolution Elite Trainer Box (Mega Gardevoir)",
+    "slug": "pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Mega Evolution",
+    "set": "Mega Evolution",
+    "setCode": "me1",
+    "releaseYear": 2025,
+    "price": 59.99,
+    "currency": "€",
+    "description": "Mega Evolution ETB s Mega Gardevoir edíciou.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir/front.webp",
+      "back": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir/back.webp",
+      "side": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir/side.webp",
+      "top": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir/gallery-2.webp",
+        "label": "elite trainer box",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T13:17:13.465Z",
+    "imageSource": "ptcg-assets (me1) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario",
+    "name": "Pokémon Mega Evolution Elite Trainer Box (Mega Lucario)",
+    "slug": "pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Mega Evolution",
+    "set": "Mega Evolution",
+    "setCode": "me1",
+    "releaseYear": 2025,
+    "price": 59.99,
+    "currency": "€",
+    "description": "Mega Evolution ETB s Mega Lucario edíciou.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario/front.webp",
+      "back": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario/back.webp",
+      "side": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario/side.webp",
+      "top": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario/gallery-2.webp",
+        "label": "elite trainer box2",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-elite-trainer-box-mega-lucario/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T13:17:14.230Z",
+    "imageSource": "ptcg-assets (me1) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.96,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-mega-evolution-booster-display-box-en",
+    "name": "Pokémon Mega Evolution Booster Display Box EN",
+    "slug": "pokemon-en-pokemon-mega-evolution-booster-display-box-en",
+    "game": "pokemon",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Mega Evolution",
+    "set": "Mega Evolution",
+    "setCode": "me1",
+    "releaseYear": 2025,
+    "price": 164.99,
+    "currency": "€",
+    "description": "Zapečatený Booster Display Box zo série Mega Evolution.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-mega-evolution-booster-display-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-mega-evolution-booster-display-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-mega-evolution-booster-display-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-mega-evolution-booster-display-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-mega-evolution-booster-display-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-booster-display-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-booster-display-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-booster-display-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-booster-display-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-mega-evolution-booster-display-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:33:45.205Z",
+    "imageSource": "ptcg-assets (me1) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 4.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en",
+    "name": "Pokémon Phantasmal Flames Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Mega Evolution",
+    "set": "Phantasmal Flames",
+    "setCode": "me2",
+    "releaseYear": 2025,
+    "price": 62.99,
+    "currency": "€",
+    "description": "Phantasmal Flames ETB s Mega Charizardom X.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-phantasmal-flames-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:48.253Z",
+    "imageSource": "ptcg-assets (me2) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en",
+    "name": "Pokémon Ascended Heroes Elite Trainer Box EN",
+    "slug": "pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en",
+    "game": "pokemon",
+    "type": "elite-trainer-box",
+    "language": "en",
+    "series": "Mega Evolution",
+    "set": "Ascended Heroes",
+    "setCode": "me2pt5",
+    "releaseYear": 2025,
+    "price": 59.99,
+    "currency": "€",
+    "description": "Ascended Heroes ETB zo série Mega Evolution.",
+    "textures": {
+      "front": "/textures/pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en/front.webp",
+      "back": "/textures/pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en/back.webp",
+      "side": "/textures/pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en/side.webp",
+      "top": "/textures/pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en/top.webp",
+      "thumbnail": "/textures/pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en/gallery-2.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en/gallery-3.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-pokemon-ascended-heroes-elite-trainer-box-en/gallery-4.webp",
+        "label": "Produktová fotka",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:54.533Z",
+    "imageSource": "ptcg-assets (me2pt5) + zadná fotka",
+    "dimensions": {
+      "width": 3.1,
+      "height": 2.95,
+      "depth": 1.85,
+      "bevelRadius": 0.05
+    },
+    "material": {
+      "roughness": 0.32,
+      "metalness": 0.14,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.18
+    }
+  },
+  {
+    "id": "pokemon-en-1999-base-set-1st-edition-booster-charizard",
+    "name": "1999 Base Set 1st Edition Booster (Charizard)",
+    "slug": "pokemon-en-1999-base-set-1st-edition-booster-charizard",
+    "game": "pokemon",
+    "type": "booster-pack",
+    "language": "en",
+    "series": "Classic Vintage",
+    "set": "Base Set (1999)",
+    "setCode": "base1",
+    "releaseYear": 1999,
+    "price": 499,
+    "currency": "€",
+    "description": "Autentický vintage scan prednej aj zadnej strany originálneho balíčka Base Set z roku 1999.",
+    "textures": {
+      "front": "/textures/pokemon-en-1999-base-set-1st-edition-booster-charizard/front.webp",
+      "back": "/textures/pokemon-en-1999-base-set-1st-edition-booster-charizard/back.webp",
+      "side": "/textures/pokemon-en-1999-base-set-1st-edition-booster-charizard/side.webp",
+      "top": "/textures/pokemon-en-1999-base-set-1st-edition-booster-charizard/top.webp",
+      "thumbnail": "/textures/pokemon-en-1999-base-set-1st-edition-booster-charizard/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/pokemon-en-1999-base-set-1st-edition-booster-charizard/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/pokemon-en-1999-base-set-1st-edition-booster-charizard/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/pokemon-en-1999-base-set-1st-edition-booster-charizard/gallery-2.webp",
+        "label": "Base Set Booster Charizard Shadowless",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-1999-base-set-1st-edition-booster-charizard/gallery-3.webp",
+        "label": "Base Set Booster Blastoise Shadowless",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/pokemon-en-1999-base-set-1st-edition-booster-charizard/gallery-4.webp",
+        "label": "Base Set Booster Venusaur Shadowless",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:51.453Z",
+    "imageSource": "ptcg-assets (base1) + zadná fotka",
+    "dimensions": {
+      "width": 2,
+      "height": 3.4,
+      "depth": 0.14,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.2,
+      "metalness": 0.42,
+      "clearcoat": 0.9,
+      "clearcoatRoughness": 0.12
+    }
+  },
+  {
+    "id": "one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box",
+    "name": "One Piece Card Game OP-09 Emperors in the New World Booster Box",
+    "slug": "one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box",
+    "game": "one-piece",
+    "type": "booster-box",
+    "language": "en",
+    "series": "One Piece Card Game",
+    "set": "OP-09 Emperors in the New World",
+    "setCode": "OP-09",
+    "price": 119.99,
+    "currency": "€",
+    "description": "Oficiálny One Piece TCG Display Box OP-09 (24 balíčkov).",
+    "textures": {
+      "front": "/textures/one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box/front.webp",
+      "back": "/textures/one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box/back.webp",
+      "side": "/textures/one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box/side.webp",
+      "top": "/textures/one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box/top.webp",
+      "thumbnail": "/textures/one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box/gallery-2.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box/gallery-3.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/one-piece-en-one-piece-card-game-op-09-emperors-in-the-new-world-booster-box/gallery-4.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:33:53.111Z",
+    "imageSource": "OPTCG API + Web Search (OP-09) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 3.4,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "one-piece-en-one-piece-card-game-op-09-booster-pack",
+    "name": "One Piece Card Game OP-09 Booster Pack",
+    "slug": "one-piece-en-one-piece-card-game-op-09-booster-pack",
+    "game": "one-piece",
+    "type": "booster-pack",
+    "language": "en",
+    "series": "One Piece Card Game",
+    "set": "OP-09 Emperors in the New World",
+    "setCode": "OP-09",
+    "price": 4.99,
+    "currency": "€",
+    "description": "Samostatný One Piece OP-09 booster balíček (12 kariet).",
+    "textures": {
+      "front": "/textures/one-piece-en-one-piece-card-game-op-09-booster-pack/front.webp",
+      "back": "/textures/one-piece-en-one-piece-card-game-op-09-booster-pack/back.webp",
+      "side": "/textures/one-piece-en-one-piece-card-game-op-09-booster-pack/side.webp",
+      "top": "/textures/one-piece-en-one-piece-card-game-op-09-booster-pack/top.webp",
+      "thumbnail": "/textures/one-piece-en-one-piece-card-game-op-09-booster-pack/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/one-piece-en-one-piece-card-game-op-09-booster-pack/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/one-piece-en-one-piece-card-game-op-09-booster-pack/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/one-piece-en-one-piece-card-game-op-09-booster-pack/gallery-2.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/one-piece-en-one-piece-card-game-op-09-booster-pack/gallery-3.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/one-piece-en-one-piece-card-game-op-09-booster-pack/gallery-4.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:33:54.538Z",
+    "imageSource": "OPTCG API + Web Search (OP-09) + zadná fotka",
+    "dimensions": {
+      "width": 2,
+      "height": 3.4,
+      "depth": 0.14,
+      "bevelRadius": 0.02
+    },
+    "material": {
+      "roughness": 0.2,
+      "metalness": 0.42,
+      "clearcoat": 0.9,
+      "clearcoatRoughness": 0.12
+    }
+  },
+  {
+    "id": "magic-en-magic-the-gathering-foundations-play-booster-box",
+    "name": "Magic: The Gathering Foundations Play Booster Box",
+    "slug": "magic-en-magic-the-gathering-foundations-play-booster-box",
+    "game": "magic",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Magic: The Gathering",
+    "set": "Foundations",
+    "setCode": "FDN",
+    "releaseYear": 2024,
+    "price": 139.99,
+    "currency": "€",
+    "description": "Magic: The Gathering Foundations Play Booster Display Box (36 balíčkov).",
+    "textures": {
+      "front": "/textures/magic-en-magic-the-gathering-foundations-play-booster-box/front.webp",
+      "back": "/textures/magic-en-magic-the-gathering-foundations-play-booster-box/back.webp",
+      "side": "/textures/magic-en-magic-the-gathering-foundations-play-booster-box/side.webp",
+      "top": "/textures/magic-en-magic-the-gathering-foundations-play-booster-box/top.webp",
+      "thumbnail": "/textures/magic-en-magic-the-gathering-foundations-play-booster-box/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/magic-en-magic-the-gathering-foundations-play-booster-box/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/magic-en-magic-the-gathering-foundations-play-booster-box/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/magic-en-magic-the-gathering-foundations-play-booster-box/gallery-2.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/magic-en-magic-the-gathering-foundations-play-booster-box/gallery-3.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/magic-en-magic-the-gathering-foundations-play-booster-box/gallery-4.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      }
+    ],
+    "featured": true,
+    "syncedAt": "2026-11-26T12:33:55.042Z",
+    "imageSource": "Scryfall + Web Search (FDN) + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 1.8,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "magic-en-magic-the-gathering-bloomburrow-commander-deck",
+    "name": "Magic: The Gathering Bloomburrow Commander Deck",
+    "slug": "magic-en-magic-the-gathering-bloomburrow-commander-deck",
+    "game": "magic",
+    "type": "starter-deck",
+    "language": "en",
+    "series": "Magic: The Gathering",
+    "set": "Bloomburrow Commander",
+    "setCode": "BLC",
+    "releaseYear": 2024,
+    "price": 44.99,
+    "currency": "€",
+    "description": "100-kartový predpripravený MTG Commander balíček zo setu Bloomburrow.",
+    "textures": {
+      "front": "/textures/magic-en-magic-the-gathering-bloomburrow-commander-deck/front.webp",
+      "back": "/textures/magic-en-magic-the-gathering-bloomburrow-commander-deck/back.webp",
+      "side": "/textures/magic-en-magic-the-gathering-bloomburrow-commander-deck/side.webp",
+      "top": "/textures/magic-en-magic-the-gathering-bloomburrow-commander-deck/top.webp",
+      "thumbnail": "/textures/magic-en-magic-the-gathering-bloomburrow-commander-deck/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/magic-en-magic-the-gathering-bloomburrow-commander-deck/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/magic-en-magic-the-gathering-bloomburrow-commander-deck/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/magic-en-magic-the-gathering-bloomburrow-commander-deck/gallery-2.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/magic-en-magic-the-gathering-bloomburrow-commander-deck/gallery-3.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/magic-en-magic-the-gathering-bloomburrow-commander-deck/gallery-4.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:34:01.149Z",
+    "imageSource": "Scryfall + Web Search (BLC) + zadná fotka",
+    "dimensions": {
+      "width": 2.2,
+      "height": 1.8,
+      "depth": 0.85,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.34,
+      "metalness": 0.12,
+      "clearcoat": 0.5,
+      "clearcoatRoughness": 0.22
+    }
+  },
+  {
+    "id": "lol-en-riftbound-league-of-legends-tcg-booster-box",
+    "name": "Riftbound League of Legends TCG Booster Box",
+    "slug": "lol-en-riftbound-league-of-legends-tcg-booster-box",
+    "game": "lol",
+    "type": "booster-box",
+    "language": "en",
+    "series": "Riftbound: League of Legends TCG",
+    "set": "Riftbound League of Legends TCG Booster Box",
+    "price": 124.99,
+    "currency": "€",
+    "description": "Oficiálna League of Legends zberateľská kartová hra Riftbound – Booster Display Box.",
+    "textures": {
+      "front": "/textures/lol-en-riftbound-league-of-legends-tcg-booster-box/front.webp",
+      "back": "/textures/lol-en-riftbound-league-of-legends-tcg-booster-box/back.webp",
+      "side": "/textures/lol-en-riftbound-league-of-legends-tcg-booster-box/side.webp",
+      "top": "/textures/lol-en-riftbound-league-of-legends-tcg-booster-box/top.webp",
+      "thumbnail": "/textures/lol-en-riftbound-league-of-legends-tcg-booster-box/thumbnail.webp"
+    },
+    "images": [
+      {
+        "url": "/textures/lol-en-riftbound-league-of-legends-tcg-booster-box/gallery-0.webp",
+        "label": "Hlavný pohľad",
+        "angle": "front"
+      },
+      {
+        "url": "/textures/lol-en-riftbound-league-of-legends-tcg-booster-box/gallery-1.webp",
+        "label": "Zadná strana",
+        "angle": "back"
+      },
+      {
+        "url": "/textures/lol-en-riftbound-league-of-legends-tcg-booster-box/gallery-2.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/lol-en-riftbound-league-of-legends-tcg-booster-box/gallery-3.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      },
+      {
+        "url": "/textures/lol-en-riftbound-league-of-legends-tcg-booster-box/gallery-4.webp",
+        "label": "Alternatívny pohľad",
+        "angle": "gallery"
+      }
+    ],
+    "featured": false,
+    "syncedAt": "2026-11-26T12:34:00.586Z",
+    "imageSource": "League of Legends / Riftbound Web Image Search + zadná fotka",
+    "dimensions": {
+      "width": 3.4,
+      "height": 3.43,
+      "depth": 2.25,
+      "bevelRadius": 0.04
+    },
+    "material": {
+      "roughness": 0.36,
+      "metalness": 0.08,
+      "clearcoat": 0.55,
+      "clearcoatRoughness": 0.22
+    }
   }
 ]
